@@ -6,17 +6,101 @@ conversation = [
         "response": "Hello I am jenny. I am from aryantech company.I am calling you regarding our services designed to assist you in securing a job. "
     },
     {
+        "question":"I am intersted in your services. Can you, tell me more?",
+        "response":"Of course!We offer range of job-related services to help you succeed in your career.Here are asome of our offerings: Apply for job , CV analysis, Cover letter and resume writting , Build a professional resume "
+    },
+    {
+        "question":"I need help with ny cv. How does that work",
+        "response": "Great! our cv analysis service will help you refine your cv for job applications.We'll analyze your CV and provide recommendations for improvement.Would you like to get started with this service?"
+    },
+    {
+        "question":"How do I submit with my CV?",
+        "response":"You can share your CV on whatsapp"
+    },
+    {
+        "question":"What about cover letters and resumes?",
+        "response":"Our team specializes in crafting compelling cover letters and resumes tailored to your industry and job preferences.We'll highlight your skills and experience to make you stand out.Would you like to learn more or get started?"
+    },
+    {
+        "question":"I'm interested in a new resume",
+        "response":"Fantastic! We'll create a custom resume for you.To begin, please provide your basic information , such as your name , contact details , and work history .Our team will reach out to you to gather more details and get started"
+    },
+    {
+        "question":"Do you have any sample resumes.I can see?",
+        "response":"Yes, we have simple resumes available for on our website.You can take a look to get an idea of the quality of our work.If you have specific questions or need more details, feel free to ask"
+    },
+    {
+        "question":"I am intersted in your job application services.How does it work?",
+        "response":"Our jopb application service streamlines the application process for you.We'll match your skills and preferences with suitable job openings, and you can apply directly through our platform.Would you like to start searching for job oppurtunities?"
+    },
+    {
+        "question":"Please help me find relevant job openings.",
+        "response":"To get started, we'll need some details about your prefeered job location, industry, and job type.Once we have the information ,we'll provide you with a list of relevant job openings."
+    }, 
+    {
+        "question":"How much does your CV analysis service cost?",
+        "response": "Our CV analysis service is currently priced at rs 500.This will include a  comprehensive review and feedback on your cv."
+    },
+    {
+        "question":"why should I consider your job search services?",
+        "response":"Our job search services are designed to streamline your search, making it more efficient and effective.We provide tailored solutions to match your career goals."
+    },
+    {
+        "question":"How can a professional resume benefit me?",
+        "response":"A professional resume highlight your skills and experiences effectively, increasing your chances of gettingf noticed by employers and securing interviews"
+    },
+    {
+        "question":"What sets your Cv snalysis apart from other services?",
+        "response":"Our CV analysis is personalized and comprehensive. We go beyond just proofreading and provide tailored suggestions to improve your CV's impact."
+    },
+    {
+        "question":"Can you help me write a cover letter for a specific job application?",
+        "response":"Absolutely! Our cover letter service crafts personalized letters tailored to the job you're applying for showcasing your qualifications and enthusiasm."
+    },
+    {
+        "question":"How long does it take to build a professional resume with your service?",
+        "response":"Typically it takes 2-3 days to build a professional resumes, but we can expedite the process if you have an urgent job application deadline."
+    },
+    {
+        "question":"Do you offer any gurantees for job placement?",
+        "response":"While we can't guarantee job placement, we can significantly improve your changes with our services.Your success depends on factors beyond the application process."
+    },
+    {
+        "question":"Can you help with profile optimization",
+        "response":"Yes, we offer profile optimization to enhance your online professional presence and networking capabilities."
+    },
+    {
+        "question":"How do I started with your services?",
+        "response": "As soon as you complete thge payment process and submit the cv, will start working on it." 
+    },
+    {
+        "question":"Are you services affordable?",
+        "response":"Absolutely! We offer a range of service packages to fit various budgets.Whether you're a student looking for entry-level positions or sa seasoned professional aiming for an executive role, we have a plan that's right for you "
+    },
+    {
+        "question":"I'm struggliing with my job search.Can you help?",
+        "response":"Absolutely! We specialize in job search assistance.We can provide you with tailored strategies and resources to make your job search more effective"
+    },
+    {
+        "question":"I think my resume might need work too",
+        "response":"Not a problem at all.We offer CV analysis and professional resume building services.We'll review your resume and provide personalized recommendations for improvement.Plus, We can help you craft a professional resume that stands out to employeers."
+    },
+    {
+        "question":"What about cover letters?",
+        "response":"We'got you covered there as well! Our expert writers can create compelling cover letters that showcase your qualifications and enthusiasm for the job you're applying for"
+    },
+    {
+        "question":"Can you guarantee I'll find a job?",
+        "response":"While we'can't guarantee job placement, Our services are designed to significantly improve your chances of landing interviews and job offers.Your success ultimately depends on factors beyond the application process."
+    },
+    {
         "question":"What specific services do you offer to help individuals secure a job?",
         "response": "Our agent will search and will share you jobs related to your profile every week.For applying on jobs with custom coverletter and content plus resume create .We will create proffesional resume for you with industry standard content"
     },
     {
         "question":"Tell me about the services",
         "response":"Our company helps with job applications, searches for relevant jobs, and analyzes your CV."
-    },    
-    {
-        "question":"How can I get started with your services?",
-        "response": "Once payment confirmation is completed, our services will begin."
-    },   
+    },     
     {
         "question":"What are the charges to start your services?",
         "response":"There is a subscription fee of Rs500 per month."
