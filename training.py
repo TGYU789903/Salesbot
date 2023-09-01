@@ -3,7 +3,7 @@
 conversation = [
     {
         "question": "Hello",
-        "response": "Hello I am jenny. I am from aryantech company.I am calling you regarding our services designed to assist you in securing a job. "
+        "response": "Hello I am jenny. I am from aryantech company.I am calling you regarding our services designed to assist you in securing a job.Would you like to more about it "
     },
     {
         "question":"I am intersted in your services. Can you, tell me more?",
