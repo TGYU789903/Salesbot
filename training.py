@@ -3,20 +3,24 @@
 conversation = [
     {
         "question": "Hello",
-        "response": "Hello I am jenny. I am from aryantech company.I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about "
+        "response": "Hello I am jenny. I am from aryantech company.I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about?"
+    },
+    {
+        "question":"I am intersted in your services.",
+        "response":"I appreciate your interest.Would you like to know more about?"
     },
     {
         "question":"I am intersted in your services.Can you tell me more?",
       
-        "response":"Of course ! We offer arrange of job related services to help you succeed in your career.Here are some of our offerings:1)Apply for job 2)CV analysis 3)Cover letter and resume writing 4) Build a professional resume"
+        "response":"I appreciate your interest ! We offer arrange of job related services to help you succeed in your career.Here are some of our offerings:1)Apply for job 2)CV analysis 3)Cover letter and resume writing 4) Build a professional resume"
     },
     {
-        "question":"I need help with my CV.How does that work?",
+        "question":"I need help with my CV. How does that work?",
         "response":"Great! Our CV analysis service will help you refine your CV for job applications.We'll analyze your CV and provide recomendations for improvement.Would you like to get started with this service ?"
     },
     {
         "question":"Yes",
-        "response":"Ok"
+        "response":"Okay sure"
     },
     {
         "question":"Yes,please! How do I submit my cv ?",
@@ -31,17 +35,12 @@ conversation = [
         "response":"Would  you like to know more about?"
     },
     {
-        "question":"Yes",
-        "response":"Ok"
-    },
-    {
         "question":"No",
         "response":"Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
         "question":"What are the charges?",
-        "response":"The charges is Rs500"
-
+        "response":"The charge is Rs.500per month"
     },
     {
         "question":"How do I pay",
@@ -69,7 +68,7 @@ conversation = [
     },   
     {
         "question":"What are the charges to start your services?",
-        "response":"The charges is Rs500 per month."
+        "response":"The charge is Rs.500 per month."
     },
     {
         "question": "What methods of payment do you accept for subscriptions (e.g., credit cards, PayPal)?",
