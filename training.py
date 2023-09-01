@@ -7,20 +7,21 @@ conversation = [
     },
     {
         "question":"I am intersted in your services.",
-        "response":"I appreciate your interest.Would you like to know more about?"
+        "response":"I appreciate your interest.Would you like to know more about them?"
     },
     {
         "question":"I am intersted in your services.Can you tell me more?",
       
         "response":"I appreciate your interest ! We offer arrange of job related services to help you succeed in your career.Here are some of our offerings:1)Apply for job 2)CV analysis 3)Cover letter and resume writing 4) Build a professional resume"
     },
+    
     {
         "question":"I need help with my CV. How does that work?",
         "response":"Great! Our CV analysis service will help you refine your CV for job applications.We'll analyze your CV and provide recomendations for improvement.Would you like to get started with this service ?"
     },
     {
         "question":"Yes",
-        "response":"Okay sure"
+        "response":"Okay,sure,what more would you like to know?"
     },
     {
         "question":"Yes,please! How do I submit my cv ?",
@@ -103,8 +104,8 @@ conversation = [
         "response": "Certainly! I'd be delighted to provide information on the onboarding process and the training and support options available for our subscription services: Onboarding Process:first is Initial Assessment: We'll begin with an initial assessment to understand your company's unique needs, goals, and current processes. This helps us tailor the onboarding experience to your specific requirements second ,Customized Onboarding Plan: Based on the assessment, we'll create a customized onboarding plan. This plan will outline the key milestones, timelines, and responsibilities to ensure a smooth transition to our subscription services.third, User Setup: If applicable, we'll assist in setting up user accounts for your team members and configuring access permissions as per their roles.In Training and Support we provide Training Sessions, User Guides and Resources, Ongoing updates, customized support plans"
     },
     {
-        "question": "I'm interested in the scalability of your subscription services.. Could you briefly outline the subscription services your company provides?",
-        "response": "our LinkedIn subscription services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
+        "question": "I'm interested in the scalability of your subscription services. Could you briefly outline the subscription services your company provides?",
+        "response": "Our subscription services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
     },
     {
         "question": "Thank you for reaching out, Jenny. We're always interested in exploring services. Can you provide more details about what your company offers?",
@@ -156,55 +157,47 @@ conversation = [
     },
     {
       "question": " I've been looking for a service like this. How do I get started with your services?",
-      "response": "That's great to hear your interest in getting started with our  services!. You have to pay subscription charges Rs500"
+      "response": "That's great to hear your interest in getting started with our  services!.Once payment confirmation is completed,our services will begin."
     },  
     {
-        "question": "I'm interested in optimizing my LinkedIn profile. How does your CV analysis tool provide feedback?",
-        "response": "Our CV analysis tool is designed to provide you with detailed feedback on how to optimize your LinkedIn profile for maximum impact in your job search.First  Upload Your LinkedIn Profile second Comprehensive Analysis third Keyword Optimization fourth Formatting and Structure fifth customization recomendations sixth actionable tips then reanalysis"
-    },
-    {
-        "question": "Do you have any success stories or testimonials from users who have benefited from your LinkedIn subscription?",
-        "response": "I don't have any access to specific success stories or testimonials from real users, and I don't have the ability to browse the internet or access real-time data.However, it's common for companies offering LinkedIn subscription services to showcase success stories and testimonials on their websites or marketing materials. I recommend visiting the website of the company providing the LinkedIn subscription services you're interested in. Typically, you'll find case studies, success stories, and testimonials from users who have benefited from their services.If you have any other questions or need information about the general benefits of LinkedIn subscription services, how they work, or any other related topics, please feel free to ask, and I'll do my best to assist you."
+        "question": "I'm interested in optimizing my profile. How does your CV analysis tool provide feedback?",
+        "response": "I appreciate your interest.Our CV analysis tool is designed to provide you with detailed feedback on how to optimize your profile for maximum impact in your job search."
     },
     {
         "question": "Can I customize the job recommendations to match my specific career goals and interests?",
         "response": "Yes, we offer the ability to customize job recommendations to match your specific career goals and interests."
     },
     {
-        "question": "Seamless job applications and personalized searches sound great. What's the pricing for your subscription plans?",
-        "response": "The pricing for your subscription plan rs 500 per month"
+        "question": "Seamless job applications and personalized searches sound great. What are the charges to start your services ",
+        "response": "The charge is Rs.500 per month."
     },
     {
         "question":"I'm intrigued by the personalized company searches. Can you explain how your system matches me with relevant companies?",
-        "response": " Our  system matches you with relevant companies through advanced filters , industry preferences , profile data, Job preferences, company insights , search history "
+        "response": "Okay,sure, Our  system matches you with relevant companies through advanced filters , industry preferences , profile data, Job preferences, company insights , search history "
     },
     {
         "question": "That's quite affordable! Can you explain more about how the CV analysis works?",
-        "response": "The CV analysis feature, offered by LinkedIn subscription services, is a tool designed to help you optimize your resume or LinkedIn profile to improve your job search prospectsthe CV analysis tool is to help you create a CV or LinkedIn profile that not only looks visually appealing but is also highly relevant to the job positions you're targeting. By following the recommendations provided, you can increase your chances of getting noticed by recruiters and employers in your desired field"
+        "response": "Yes,sure. CV (Curriculum Vitae) analysis, often referred to as resume parsing or CV parsing, is a process used by many job search and recruitment platforms to extract and analyze information from resumes or CVs submitted by job seekers."
     },
     {
         "question": "Are there different subscription tiers or plans available, or is it a one-size-fits-all package?",
-        "response": "At aryantech Company, we offer a comprehensive subscription service for just Rs 500 per month. With this subscription, you'll gain access to a range of valuable features, including company searches, CV analysis, and guidance on how to apply for jobs. Our goal is to empower you in your job search and career development. If you're ready to enhance your LinkedIn experience and boost your career prospects, our subscription service is here to help. Feel free to ask any questions or get started with us today!"
+        "response": "At aryantech Company, we offer a comprehensive subscription service for just Rs.500 per month. With this subscription, you'll gain access to a range of valuable features, including company searches, CV analysis, and guidance on how to apply for jobs. Our goal is to empower you in your job search and career development. If you're ready to enhance your LinkedIn experience and boost your career prospects, our subscription service is here to help. Feel free to ask any questions or get started with us today!"
     },
     {
         "question": "Is there a commitment period for the subscription, or can I cancel at any time?",
-        "response": "Yes , LinkedIn's subscription plans typically offer both monthly and annual payment options. The commitment period can vary depending on the payment option you choose: First ,Monthly Subscription: With a monthly subscription, you are billed on a month-to-month basis. You can cancel your subscription at any time, and you'll only be charged for the current month. There is no long-term commitment, and you can stop the subscription whenever you wish.second , Annual Subscription: If you opt for an annual subscription, you commit to a one-year period of service. You pay for the full year upfront at a discounted rate compared to the monthly subscription. However, canceling an annual subscription before the end of the committed year may not result in a refund for the remaining months."
+        "response": "Yes , subscription plans typically offer both monthly and annual payment options. The commitment period can vary depending on the payment option you choose: First ,Monthly Subscription: With a monthly subscription, you are billed on a month-to-month basis. You can cancel your subscription at any time, and you'll only be charged for the current month. There is no long-term commitment, and you can stop the subscription whenever you wish.second , Annual Subscription: If you opt for an annual subscription, you commit to a one-year period of service. You pay for the full year upfront at a discounted rate compared to the monthly subscription. However, canceling an annual subscription before the end of the committed year may not result in a refund for the remaining months."
     },
     # {
     #     "question": "",
     #     "response": "Yes I can provide some details on the guidance that LinkedIn Premium often offers for job applications:First Advanced Job Search Filters , second InMail Messages third Resume Building Tools fourth company insights fifth application tracking sixth profile optimization "
     # },
     {
-        "question" :"What payment options are available for  subscriptions?",
+        "question" :"What payment options are available for subscriptions?",
         "response": "You can typically pay using a credit card, debit card, or other accepted payment methods."
     },
     {
         "question":"Can I choose between monthly and annual billing options for my subscription?",
         "response": "Yes, you can choose between monthly and annual billing options. Monthly billing charges you on a month-to-month basis, while annual billing provides a discounted rate for a full year of service."
-    },
-    {
-        "question": "How do I provide my payment information during the enrollment process?",
-        "response": "During enrollment, you'll be prompted to enter your payment information, including credit card details, to complete the subscription purchase."
     },
     {
         "question": "Are there any discounts or promotions available for subscriptions?",
@@ -229,10 +222,6 @@ conversation = [
     {
         "question": "What kind of guidance do you offer for job applications?",
         "response": "We provide step-by-step guidance on how to apply for jobs, including tips on writing cover letters, preparing for interviews, and networking on LinkedIn."
-    },
-    {
-        "question": "What are the subscription charges for your services?",
-        "response": "our subscription charges is rs 500 per month "
     },
     {
         "question": "How can I get in touch with your customer support team?",
@@ -292,7 +281,7 @@ conversation = [
     },
     {
       "question": "I am interested in cv analysis can you please provide the subscription charges ",
-      "response": " Ok sure Our subscription charges is Rs 500"
+      "response": " Okay,sure, Our subscription charges is Rs 500"
     },
 ] 
 
