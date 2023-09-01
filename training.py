@@ -10,6 +10,23 @@ conversation = [
         "response":"Of course!We offer range of job-related services to help you succeed in your career.Here are asome of our offerings: Apply for job , CV analysis, Cover letter and resume writting , Build a professional resume "
     },
     {
+        "question":"Ok",
+        "response":"Would  you like to know more about?"
+    },
+    {
+        "question":"Yes",
+        "response":"Ok"
+    },
+    {
+        "question":"No",
+        "response":"Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
+    },
+    {
+        "question":"What are the charges?",
+        "response":"The charges is rs500"
+        
+    },
+    {
         "question":"I need help with ny cv. How does that work",
         "response": "Great! our cv analysis service will help you refine your cv for job applications.We'll analyze your CV and provide recommendations for improvement.Would you like to get started with this service?"
     },
