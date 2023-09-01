@@ -22,6 +22,10 @@ conversation = [
         "response":"Our team specializes in crafting compelling cover letters and resumes tailored to your industry and job preferences.We'll highlight your skills and experience to make you stand out.Would you like to learn more or get started?"
     },
     {
+        "question":"I am not intersted",
+        "response":"Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
+    }
+    {
         "question":"I'm interested in a new resume",
         "response":"Fantastic! We'll create a custom resume for you.To begin, please provide your basic information , such as your name , contact details , and work history .Our team will reach out to you to gather more details and get started"
     },
