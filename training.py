@@ -31,7 +31,7 @@ conversation = [
    },
    {
        "question": "Can you provide any references or success stories?",
-      "response": "Certainly! We have numerous success stories from clients who have landed their dream jobs with our assistance. I can share some testimonials and references with you."
+       "response": "Certainly! We have numerous success stories from clients who have landed their dream jobs with our assistance. I can share some testimonials and references with you on whatsapp."
    },
    {
       "question": "Thank you for reaching out, Jacob. We're always interested in exploring services.",
@@ -67,7 +67,7 @@ conversation = [
     },
     {
        "question": "What are the charges?",
-       "response": "Our subscription charge is Rs. 500 per month."
+       "response": "The charge is Rs.500 per month."
     },
     {
        "question": "How do I pay?",
@@ -95,7 +95,7 @@ conversation = [
     },   
     {
         "question":"What are the charges to start your services?",
-        "response":"Our subscription charge is Rs. 500 per month."
+        "response":"The charge is Rs.500 per month."
     },
     {
         "question": "What methods of payment do you accept for subscriptions (e.g., credit cards, PayPal)?",
@@ -103,7 +103,7 @@ conversation = [
     },    
     {
         "question":"I'm ready to get started right away.",
-        "response": "Please proceed with the payment of the subscription charges to initiate our subscription services"
+        "response": "Please proceed with the payment of the subscription charges to initiate our subscription services. I have just shared a payment link with you on whatsapp"
     },
     {
         "question":"I'd like to find a job within the next 3-6 months.",  
@@ -306,7 +306,7 @@ conversation = [
     },
     {
         "question": "I am interested in CV analysis. Can you please provide the subscription charges?",
-        "response": "Okay, sure. Our subscription charges are Rs 500."
+        "response": "Okay, sure. Our subscription charges are Rs.500 per month."
     },
 ] 
 
