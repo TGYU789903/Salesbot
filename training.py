@@ -336,5 +336,5 @@ faiss.write_index(index, 'faiss_index.idx')
 
 # Save SentenceTransformer model
 model.save('sentence_transformer_model/')
-
+print("Model trained successfully")
 
