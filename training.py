@@ -7,7 +7,7 @@ conversation = [
     },
     {
     "question": "I am interested in your services.",
-    "response": "I appreciate your interest. Would you like to know more about them?"
+    "response": "I appreciate your interest! We offer a range of job-related services to help you succeed in your career. Can you tell me a bit about your current career goals and what type of job you're looking for?"
     },
     {
     "question": "Sure, tell me about about more.",
@@ -19,7 +19,7 @@ conversation = [
     },
     {
     "question": "I have 7 years of experience in marketing, including managing a team of 5. I've led successful campaigns and have strong analytical skills.",
-    "response": "Based on what you've told me, our job services can be a great fit for you. Here's how we can assist you with resume enhancement, personalized job search, CV analysis."
+    "response": "Based on what you've told me, our job services can be a great fit for you. We can assist you with resume enhancement, personalized job search, CV analysis."
     },
     {
     "question": "That sounds interesting. How do your services work?",
