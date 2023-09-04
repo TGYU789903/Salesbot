@@ -3,7 +3,7 @@
 conversation = [
     {
     "question": "Hello",
-    "response": "Hello, I am Jenny. I am from Aryantech company. I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about it?"
+    "response": "Hello, I am Jacob. I am from Aryantech company. I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about it?"
     },
     {
     "question": "I am interested in your services.",
@@ -34,7 +34,7 @@ conversation = [
       "response": "Certainly! We have numerous success stories from clients who have landed their dream jobs with our assistance. I can share some testimonials and references with you."
    },
    {
-      "question": "Thank you for reaching out, Jenny. We're always interested in exploring services.",
+      "question": "Thank you for reaching out, Jacob. We're always interested in exploring services.",
       "response": "Thank you for considering our job services. We are committed to helping you succeed in your job search and career advancement. I look forward to speaking with you during your services. Have a great day!"
    },
    {
@@ -110,23 +110,23 @@ conversation = [
         "response": "Certainly, we are here to support you in your job search. Our team will assist you in finding a job within the next 3-6 months."
     },
     {
-        "question": "Thank you for reaching out, Jenny. We're always interested in exploring subscription services. Can you provide more details about what your company offers?",
+        "question": "Thank you for reaching out, Jacob. We're always interested in exploring subscription services. Can you provide more details about what your company offers?",
         "response": "Our  subscription services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
     },
     {
-        "question": "Jenny! Subscriptions can be a valuable addition to our business. Could you explain the pricing and terms associated with your services?",
+        "question": "Jacob! Subscriptions can be a valuable addition to our business. Could you explain the pricing and terms associated with your services?",
         "response": "I'd be happy to explain the pricing and terms associated with our subscription services.our subscription charges rs500 per month.As for the terms, our subscriptions are typically billed on a monthly or annual basis, depending on your preference. We offer flexible payment options to accommodate your budget."
     },
     {
-        "question": "Jenny, it's great to hear from you. Before we proceed, can you share some success stories or case studies related to your subscription services?",
+        "question": "Jacob, it's great to hear from you. Before we proceed, can you share some success stories or case studies related to your subscription services?",
         "response": "I'm glad to hear your interest in our subscription services. Absolutely, I'd be happy to share some success stories and case studies with you.First, John's Career Transformation: John, a mid-career professional, subscribed to our Premium plan. With the help of our CV analysis tool and personalized company searches, he revamped his LinkedIn profile and connected with a company that perfectly matched his skills. He secured a new job within two months, resulting in a significant salary increase and career advancement.Second,Samantha's Networking Triumph: Samantha, a recent graduate, subscribed to our  plan to kickstart her career. Our subscription helped her build a strong professional network and provided valuable guidance on job applications. She secured her first job in her desired field just three months after graduation."
     },
     {
-        "question": "Thanks for your call, Jenny. I'd like to know more about the customization options available with your subscription services. How flexible are they?",
+        "question": "Thanks for your call, Jacob. I'd like to know more about the customization options available with your subscription services. How flexible are they?",
         "response": "You're welcome! I appreciate your interest in the customization options for our subscription services. We understand that flexibility is crucial to meet the unique needs of our clients.Here's an overview of the customization options and their flexibility First , Subscription Tiers: Our services are available in different tiers, each with a set of features and pricing. You can choose the tier that aligns best with your specific requirements and budget. We can also discuss the possibility of creating a custom package if none of the existing tiers fits your needs perfectly.second, Additional Features: If there are specific features or tools that your company requires, we can explore the option of adding them to your subscription. This allows you to tailor the service to address your unique challenges or goals."
     },
     {
-        "question": "Jenny, we're open to exploring subscription services. Can you provide information on the onboarding process and any potential training or support?",
+        "question": "Jacob, we're open to exploring subscription services. Can you provide information on the onboarding process and any potential training or support?",
         "response": "Certainly! I'd be delighted to provide information on the onboarding process and the training and support options available for our subscription services: Onboarding Process:first is Initial Assessment: We'll begin with an initial assessment to understand your company's unique needs, goals, and current processes. This helps us tailor the onboarding experience to your specific requirements second ,Customized Onboarding Plan: Based on the assessment, we'll create a customized onboarding plan. This plan will outline the key milestones, timelines, and responsibilities to ensure a smooth transition to our subscription services.third, User Setup: If applicable, we'll assist in setting up user accounts for your team members and configuring access permissions as per their roles.In Training and Support we provide Training Sessions, User Guides and Resources, Ongoing updates, customized support plans"
     },
     {
@@ -134,43 +134,43 @@ conversation = [
         "response": "Our subscription services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
     },
     {
-        "question": "Thank you for reaching out, Jenny. We're always interested in exploring services. Can you provide more details about what your company offers?",
+        "question": "Thank you for reaching out, Jacob. We're always interested in exploring services. Can you provide more details about what your company offers?",
         "response": "You're welcome ,Our services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
     },
     {
-        "question": "Jenny, while I  appreciate your call, at this time, we're not actively seeking new services.",
+        "question": "Jacob, while I  appreciate your call, at this time, we're not actively seeking new services.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question":"Jenny, I recently had some unsatisfactory experiences with subscription services, so we're a bit hesitant to explore new options.",
+        "question":"Jacob, I recently had some unsatisfactory experiences with subscription services, so we're a bit hesitant to explore new options.",
         "response":"Thank you for your consideration, and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": "Jenny, we're currently in the middle of a contract with another service provider, so we can't consider new subscriptions right now.",
+        "question": "Jacob, we're currently in the middle of a contract with another service provider, so we can't consider new subscriptions right now.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": "Thanks for your call, Jenny. We've recently evaluated similar services and decided they didn't align with our needs.",
+        "question": "Thanks for your call, Jacob. We've recently evaluated similar services and decided they didn't align with our needs.",
         "response": "You're welcome and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": "Jenny, we've had issues with subscription services not meeting our expectations in the past, so we're cautious about adding new ones.",
+        "question": "Jacob, we've had issues with subscription services not meeting our expectations in the past, so we're cautious about adding new ones.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": "Jenny, we're currently focused on other strategic priorities, so we won't be able to consider subscription services at this time.",
+        "question": "Jacob, we're currently focused on other strategic priorities, so we won't be able to consider subscription services at this time.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": "Thank you for your call, Jenny. Our company has a policy against taking on new services until our existing ones expire.",
+        "question": "Thank you for your call, Jacob. Our company has a policy against taking on new services until our existing ones expire.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": " Jenny, we've recently downsized our operations and are streamlining our services, so we won't be looking at new subscriptions.",
+        "question": " Jacob, we've recently downsized our operations and are streamlining our services, so we won't be looking at new subscriptions.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
-        "question": " Jenny, we're in the midst of an internal review of our budget, and unfortunately, we can't entertain new subscription services until that's complete.",
+        "question": " Jacob, we're in the midst of an internal review of our budget, and unfortunately, we can't entertain new subscription services until that's complete.",
         "response": "Thank you for your consideration, and I appreciate your time in discussing our subscription services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
     },
     {
@@ -178,7 +178,7 @@ conversation = [
         "response": "Our CV analysis tool is designed to help you optimize your resume for a competitive edge in your job search. Here's how it works: first Upload Your Resume: You begin by uploading your existing resume into our system. This can be done easily through our user-friendly interface.Second, Automated Analysis: Our tool uses advanced algorithms and machine learning to analyze your resume comprehensively. It evaluates various aspects, including formatting, content, and keywords.Third, Feedback and Suggestions: Once the analysis is complete, you'll receive detailed feedback and suggestions for improvement. This may include recommendations on restructuring your resume, enhancing the use of keywords, and improving the overall visual appeal.Fourth, Personalized Tips: You'll also receive personalized tips and best practices based on your industry and the type of job you're seeking. These tips are designed to make your resume more appealing to potential employers. Fifth, Actionable Insights: The analysis provides actionable insights that you can implement immediately to strengthen your resume. These insights are aimed at increasing your chances of getting noticed by recruiters.sixth, Reanalysis: You can make the recommended changes to your resume and then resubmit it for reanalysis as many times as you like. This iterative process ensures that your resume is continually optimized for different job applications then Results Tracking: The tool allows you to track your progress over time. You can see how your resume evolves and improves with each analysis"
     },
     {
-        "question": "Jenny, we're currently focused on other strategic priorities, so we won't be able to consider subscription services at this time.",        
+        "question": "Jacob, we're currently focused on other strategic priorities, so we won't be able to consider subscription services at this time.",        
         "response": "Thank you for letting me know, and I appreciate your time in discussing our services. If your priorities ever shift or if you have any questions or needs related to our services in the future, don't hesitate to reach out. We're here to assist whenever you're ready. Wishing you success with your current strategic priorities!"
     },
     {
