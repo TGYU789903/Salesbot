@@ -215,7 +215,7 @@ conversation = [
         "response": "At aryantech Company, we offer a comprehensive subscription service for just Rs.500 per month. With this subscription, you'll gain access to a range of valuable features, including company searches, CV analysis, and guidance on how to apply for jobs. Our goal is to empower you in your job search and career development. If you're ready to enhance your LinkedIn experience and boost your career prospects, our subscription service is here to help. Feel free to ask any questions or get started with us today!"
     },
     {
-        "question": "Is there a commitment period for the subscription, or can I cancel at any time?",
+        "question": "Is there a commitment period for the subscription, or can I cancel Subscription at any time?",
         "response": "Yes , subscription plans typically offer both monthly and annual payment options. The commitment period can vary depending on the payment option you choose: First ,Monthly Subscription: With a monthly subscription, you are billed on a month-to-month basis. You can cancel your subscription at any time, and you'll only be charged for the current month. There is no long-term commitment, and you can stop the subscription whenever you wish.second , Annual Subscription: If you opt for an annual subscription, you commit to a one-year period of service. You pay for the full year upfront at a discounted rate compared to the monthly subscription. However, canceling an annual subscription before the end of the committed year may not result in a refund for the remaining months."
     },
 
