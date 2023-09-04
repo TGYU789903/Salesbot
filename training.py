@@ -71,7 +71,7 @@ conversation = [
     },
     {
        "question": "How do I pay?",
-       "response": "You can pay via debit or credit card, PayPal, bank transfers, mobile wallets, and cash payments."
+       "response": "You can pay via debit or credit card, PayPal, bank transfers or mobile wallets"
     },
     {
         "question": "What about cover letters and resumes?",
@@ -95,7 +95,7 @@ conversation = [
     },   
     {
         "question":"What are the charges to start your services?",
-        "response":"The charge is Rs.500 per month."
+        "response":"Our subscription charge is Rs. 500 per month."
     },
     {
         "question": "What methods of payment do you accept for subscriptions (e.g., credit cards, PayPal)?",
