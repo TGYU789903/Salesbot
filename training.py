@@ -79,11 +79,11 @@ conversation = [
     },
     {
         "question": "I am intersted in new resume",
-        "response": "Great! We'll create a custom resume for you .To begin,please provide your basic such as your name, contact details and work history. We'll reach"  
+        "response": "Great! We'll create a custom resume for you. To begin, please provide your basic such as your name, contact details and work history. We'll reach"  
     },
     {
         "question":"What specific services do you offer to help individuals secure a job?",
-        "response": "Our agent will search and will share you jobs related to your profile every week. For applying on jobs with custom cover letter and content plus resume create. We will create professional resume for you with industry standard content."
+        "response": "Our agent will search and share jobs related to your profile every week. For applying on jobs with custom cover letter and content plus resume create. We will create professional resume for you with industry standard content."
     },
     {
         "question":"Tell me about the services",
