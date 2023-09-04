@@ -79,7 +79,8 @@ conversation = [
     },
     {
         "question": "I am intersted in new resume",
-        "response": "Great! We'll create a custom resume for you. To begin, please provide your basic such as your name, contact details and work history. We'll reach"  
+        "response": "Great! I can help you create a new resume. To get started, please provide your basic information such as name, contact details, work history, your education, any additional information you want to include(such as hobbies, interests.). Once you provide this information, I can help you format it into a professional and effective resume." 
+            
     },
     {
         "question":"What specific services do you offer to help individuals secure a job?",
@@ -90,9 +91,13 @@ conversation = [
         "response":"Our company helps with job applications, searches for relevant jobs, and analyzes your CV."
     },    
     {
-        "question":"How can I get started with your services?",
+        "question":"When can I get started with your services?",
         "response": "As soon as we receive payment confirmation, your services will begin."
     },   
+    {
+       "question": "Sounds intersting. But what makes your service different from others?",
+        "response":"Excellent question! At aryantech, our team consits of industry professionals with years of experience in recruitment and HR. We keep ourselves uploaded with the latest trends in various industries, ensuring that your resume aligns with current requirements"
+    },
     {
         "question":"What are the charges to start your services?",
         "response":"The charge is Rs.500 per month."
@@ -175,7 +180,7 @@ conversation = [
     },
     {
         "question": "That sounds fantastic! Can you tell me more about how the CV analysis works?",
-        "response": "Our CV analysis tool is designed to help you optimize your resume for a competitive edge in your job search. Here's how it works: first Upload Your Resume: You begin by uploading your existing resume into our system. This can be done easily through our user-friendly interface.Second, Automated Analysis: Our tool uses advanced algorithms and machine learning to analyze your resume comprehensively. It evaluates various aspects, including formatting, content, and keywords.Third, Feedback and Suggestions: Once the analysis is complete, you'll receive detailed feedback and suggestions for improvement. This may include recommendations on restructuring your resume, enhancing the use of keywords, and improving the overall visual appeal.Fourth, Personalized Tips: You'll also receive personalized tips and best practices based on your industry and the type of job you're seeking. These tips are designed to make your resume more appealing to potential employers. Fifth, Actionable Insights: The analysis provides actionable insights that you can implement immediately to strengthen your resume. These insights are aimed at increasing your chances of getting noticed by recruiters.sixth, Reanalysis: You can make the recommended changes to your resume and then resubmit it for reanalysis as many times as you like. This iterative process ensures that your resume is continually optimized for different job applications then Results Tracking: The tool allows you to track your progress over time. You can see how your resume evolves and improves with each analysis"
+        "response": "Our CV analysis tool is designed to help you optimize your resume for a competitive edge in your job search. Here's how it works: first Upload Your Resume Second Automated Analysis Third, Feedback and Suggestions your resume, enhancing the use of keywords, and improving the overall visual appeal.Fourth, Personalized Tips. Fifth, Actionable Insights.Sixth, Reanalysis"
     },
     {
         "question": "Jacob, we're currently focused on other strategic priorities, so we won't be able to consider subscription services at this time.",        
