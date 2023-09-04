@@ -27,7 +27,7 @@ conversation = [
     },
     {
     "question": "I'm concerned about the cost. What are the charges?",
-    "response": "The charge is Rs. 500 per month."
+    "response": "Our subscription charge is Rs. 500 per month."
    },
    {
        "question": "Can you provide any references or success stories?",
