@@ -67,7 +67,7 @@ conversation = [
     },
     {
        "question": "What are the charges?",
-       "response": "The charge is Rs. 500 per month."
+       "response": "Our subscription charge is Rs. 500 per month."
     },
     {
        "question": "How do I pay?",
