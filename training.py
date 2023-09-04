@@ -19,7 +19,7 @@ conversation = [
     },
     {
     "question": "I have 7 years of experience in marketing, including managing a team of 5. I've led successful campaigns and have strong analytical skills.",
-    "response": "Based on what you've told me, our job services can be a great fit for you. Here's how we can assist you: resume enhancement, personalized job search, CV analysis."
+    "response": "Based on what you've told me, our job services can be a great fit for you. Here's how we can assist you with resume enhancement, personalized job search, CV analysis."
     },
     {
     "question": "That sounds interesting. How do your services work?",
