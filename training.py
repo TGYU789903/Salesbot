@@ -2,54 +2,80 @@
 ### Saving the training model and continuous testing.
 conversation = [
     {
-        "question": "Hello",
-        "response": "Hello I am jenny. I am from aryantech company.I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about?"
+    "question": "Hello",
+    "response": "Hello, I am Jenny. I am from Aryantech company. I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about it?"
     },
     {
-        "question":"I am intersted in your services.",
-        "response":"I appreciate your interest.Would you like to know more about them?"
+    "question": "I am interested in your services.",
+    "response": "I appreciate your interest. Would you like to know more about them?"
     },
     {
-        "question":"I am intersted in your services.Can you tell me more?",
-      
-        "response":"I appreciate your interest ! We offer arrange of job related services to help you succeed in your career.Here are some of our offerings:1)Apply for job 2)CV analysis 3)Cover letter and resume writing 4) Build a professional resume"
-    },
-    
-    {
-        "question":"I need help with my CV. How does that work?",
-        "response":"Great! Our CV analysis service will help you refine your CV for job applications.We'll analyze your CV and provide recomendations for improvement.Would you like to get started with this service ?"
+    "question": "Sure, tell me more.",
+    "response": "I appreciate your interest! We offer a range of job-related services to help you succeed in your career. Can you tell me a bit about your current career goals and what type of job you're looking for?"
     },
     {
-        "question":"Yes",
-        "response":"Okay,sure,what more would you like to know?"
+    "question": "I am looking for a job in a senior marketing position in a tech company. Can you help me?",
+    "response": "Thank you for sharing details. Can you also provide me with some insight into your skills and experiences that make you a strong candidate?"
     },
     {
-        "question":"Yes,please! How do I submit my cv ?",
-        "response":"You can share your cv on whatsapp"
+    "question": "I have 7 years of experience in marketing, including managing a team of 5. I've led successful campaigns and have strong analytical skills.",
+    "response": "Based on what you've told me, our job services can be a great fit for you. Here's how we can assist you: resume enhancement, personalized job search, CV analysis."
     },
     {
-        "question":"I am not intersted",
-        "response":"Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
+    "question": "That sounds interesting. How do your services work?",
+    "response": "Once we understand your specific needs, we'll tailor our services to match your career goals. You'll work closely with our team of experts who will guide you through each step of your job search journey."
     },
     {
-        "question":"Ok",
-        "response":"Would  you like to know more about?"
+    "question": "I'm concerned about the cost. What are the charges?",
+    "response": "The charge is Rs. 500 per month."
+   },
+   {
+       "question": "Can you provide any references or success stories?",
+      "response": "Certainly! We have numerous success stories from clients who have landed their dream jobs with our assistance. I can share some testimonials and references with you."
+   },
+   {
+      "question": "Thank you for reaching out, Jenny. We're always interested in exploring services.",
+      "response": "Thank you for considering our job services. We are committed to helping you succeed in your job search and career advancement. I look forward to speaking with you during your services. Have a great day!"
+   },
+   {
+      "question": "I am interested in your services. Can you tell me more?",
+      "response": "I appreciate your interest! We offer a range of job-related services to help you succeed in your career. Here are some of our offerings: Apply for a job, CV analysis, cover letter and resume writing, build a professional resume."
     },
     {
-        "question":"No",
-        "response":"Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
+       "question": "I need help with my CV. How does that work?",
+       "response": "Great! Our CV analysis service will help you refine your CV for job applications. We'll analyze your CV and provide recommendations for improvement. Would you like to get started with this service?"
     },
     {
-        "question":"What are the charges?",
-        "response":"The charge is Rs.500per month"
+       "question": "Yes",
+       "response": "Okay, sure. What more would you like to know?"
     },
     {
-        "question":"How do I pay",
-        "response":"You can pay via debit or credit card,Paypal, bank transfers, mobile wallets and cash payments"
+      "question": "Yes, please! How do I submit my CV?",
+      "response": "You can share your CV on WhatsApp."
     },
     {
-        "question": "What about cover letters and resume.",
-        "response": "Our team specializes in crafting compelling cover letters and resumes tailored to your industry and job preferences.We'll highlight your skills and experience to make you stand out.Would you like to learn more or get started?"
+       "question": "I am not interested.",
+       "response": "Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
+    },
+    {
+       "question": "Ok",
+       "response": "Would you like to know more about it?"
+    },
+    {
+       "question": "No",
+       "response": "Thank you for your consideration, and I appreciate your time in discussing our services. If you ever change your mind or have any questions in the future, please don't hesitate to reach out. We're here to assist you whenever your needs align with our services. Have a great day!"
+    },
+    {
+       "question": "What are the charges?",
+       "response": "The charge is Rs. 500 per month."
+    },
+    {
+       "question": "How do I pay?",
+       "response": "You can pay via debit or credit card, PayPal, bank transfers, mobile wallets, and cash payments."
+    },
+    {
+        "question": "What about cover letters and resumes?",
+        "response": "Our team specializes in crafting compelling cover letters and resumes tailored to your industry and job preferences. We'll highlight your skills and experience to make you stand out. Would you like to learn more or get started?"
     },
     {
         "question": "I am intersted in new resume",
@@ -187,21 +213,22 @@ conversation = [
         "question": "Is there a commitment period for the subscription, or can I cancel at any time?",
         "response": "Yes , subscription plans typically offer both monthly and annual payment options. The commitment period can vary depending on the payment option you choose: First ,Monthly Subscription: With a monthly subscription, you are billed on a month-to-month basis. You can cancel your subscription at any time, and you'll only be charged for the current month. There is no long-term commitment, and you can stop the subscription whenever you wish.second , Annual Subscription: If you opt for an annual subscription, you commit to a one-year period of service. You pay for the full year upfront at a discounted rate compared to the monthly subscription. However, canceling an annual subscription before the end of the committed year may not result in a refund for the remaining months."
     },
+
     # {
     #     "question": "",
     #     "response": "Yes I can provide some details on the guidance that LinkedIn Premium often offers for job applications:First Advanced Job Search Filters , second InMail Messages third Resume Building Tools fourth company insights fifth application tracking sixth profile optimization "
     # },
     {
-        "question" :"What payment options are available for subscriptions?",
+        "question" : "What payment options are available for subscriptions?",
         "response": "You can typically pay using a credit card, debit card, or other accepted payment methods."
     },
     {
-        "question":"Can I choose between monthly and annual billing options for my subscription?",
+        "question": "Can I choose between monthly and annual billing options for my subscription?",
         "response": "Yes, you can choose between monthly and annual billing options. Monthly billing charges you on a month-to-month basis, while annual billing provides a discounted rate for a full year of service."
     },
     {
-        "question": "Are there any discounts or promotions available for subscriptions?",
-        "response": "I am Sorry right now there are no discounts or promotions available "
+        "question":  "Are there any discounts or promotions available for subscriptions?",
+        "response": "I am sorry, but right now there are no discounts or promotions available."
     },
     {
         "question": "Once I complete the enrollment and payment process, how soon will my subscription be active?",
@@ -209,22 +236,22 @@ conversation = [
     },
     {
         "question": "What should I do if I encounter any issues during the payment process?",
-        "response": " If you encounter any issues or have questions during payment, you can reach out to customer support for assistance. They can help resolve technical or billing-related concerns."
+        "response": "If you encounter any issues or have questions during payment, you can reach out to customer support for assistance. They can help resolve technical or billing-related concerns."
     },
     {
-        "question": "How can your company help me with my job search ",
+        "question": "How can your company help me with my job search?",
         "response": "We provide personalized job recommendations based on your profile and preferences. We also offer tips on optimizing your profile to attract employers."
     },
     {
         "question": "Can you explain how your CV analysis service works?",
-        "response": "Sure! You can upload your CV, and our system will analyze it for key strengths and weaknesses. We'll then provide suggestions for improvements to make your CV stand out to potential employers."
-    },
+        "response": "Sure! You can upload your CV, and our system will analyze it for key strengths and weaknesses. We'll then provide suggestions for improvements to make your CV stand out to potential employers."    },
     {
-        "question": "What kind of guidance do you offer for job applications?",
+        "question":  "What kind of guidance do you offer for job applications?",
         "response": "We provide step-by-step guidance on how to apply for jobs, including tips on writing cover letters, preparing for interviews, and networking on LinkedIn."
+
     },
     {
-        "question": "How can I get in touch with your customer support team?",
+        "question":  "How can I get in touch with your customer support team?",
         "response": "You can reach our customer support team via email, phone, or through the messaging system on our platform. We're here to help you with any questions or issues you may have."
     },
     {
@@ -236,16 +263,12 @@ conversation = [
         "response": "We use algorithms that consider your skills, experience, and preferences to suggest jobs that are a good fit for you. The more information you provide in your profile, the more accurate our recommendations will be."
     },
     {
-        "question":" Can you help me with other aspects of my job search beyond CV improvement?",
-        "response": "While our primary focus is CV analysis and optimization, we also offer guidance on job searching, interview preparation, and networking to help you succeed in your job search endeavors."
-    },
-    {
         "question":"Do you provide ongoing support if I have questions about my CV or job applications?",
-        "response":"Yes, we offer ongoing support through our customer service channels. Feel free to reach out with any questions or concerns you have along your job search journey."
+        "response": "Yes, we offer ongoing support through our customer service channels. Feel free to reach out with any questions or concerns you have along your job search journey."
     },
     {
         "question": "Can you help me with other aspects of my job search beyond CV improvement?",
-        "response":"While our primary focus is CV analysis and optimization, we also offer guidance on job searching, interview preparation, and networking to help you succeed in your job search endeavors."
+        "response": "While our primary focus is CV analysis and optimization, we also offer guidance on job searching, interview preparation, and networking to help you succeed in your job search endeavors."
     },
     {
         "question": "Is my CV data kept secure when I use your services?",
@@ -261,27 +284,29 @@ conversation = [
     },
     {
         "question": "What types of improvements might you suggest for my CV?",
-        "response":"We may suggest improvements in areas such as keyword optimization, achievements showcasing, clarity of information, and formatting to make your CV more impactful and ATS-friendly."
+        "response": "We may suggest improvements in areas such as keyword optimization, achievements showcasing, clarity of information, and formatting to make your CV more impactful and ATS-friendly."
     },
     {
-        "question": " How do I submit my CV for analysis?",
-        "response":"You can easily upload your CV on our platform, and our system will guide you through the submission process. It's a straightforward and secure procedure."
+        "question": "How do I submit my CV for analysis?",
+        "response": "You can easily upload your CV on our platform, and our system will guide you through the submission process. It's a straightforward and secure procedure."
+
     },
     {
         "question": "What kind of CV analysis do you perform?",
-        "response": "Our CV analysis includes a comprehensive review of your CV's content, structure, formatting, and relevance to the job market. We assess it against industry standards and provide detailed feedback"
+        "response": "Our CV analysis includes a comprehensive review of your CV's content, structure, formatting, and relevance to the job market. We assess it against industry standards and provide detailed feedback."
     },
     {   
         "question": "How can your company help improve my CV?",
-        "response": "Our company provide professional CV analysis and optimization services. Our experts review your CV, identify areas for improvement, and offer tailored suggestions to make it stand out to potential employers."
+        "response": "Our company provides professional CV analysis and optimization services. Our experts review your CV, identify areas for improvement, and offer tailored suggestions to make it stand out to potential employers."    
     },
+    
     {
-        "question":"Thank you for your interest! To get started, could you please provide your name and contact information?",        
+        "question": "Thank you for your interest! To get started, could you please provide your name and contact information?",
         "response": "You're welcome! We'd be delighted to assist you. Please share your name and contact details, and we'll reach out to you shortly to discuss further."
     },
     {
-      "question": "I am interested in cv analysis can you please provide the subscription charges ",
-      "response": " Okay,sure, Our subscription charges is Rs 500"
+        "question": "I am interested in CV analysis. Can you please provide the subscription charges?",
+        "response": "Okay, sure. Our subscription charges are Rs 500."
     },
 ] 
 
