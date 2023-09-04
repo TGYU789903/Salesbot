@@ -3,11 +3,11 @@
 conversation = [
     {
     "question": "Hello",
-    "response": "Hello, I am Jacob from Aryantech company. I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about it?"
+    "response": "Hello, I am Jacob. I am from Aryantech company. I am calling you regarding our services designed to assist you in securing a job. Would you like to know more about it?"
     },
     {
     "question": "I am interested in your services.",
-    "response": "I appreciate your interest! We offer a range of job-related services to help you succeed in your career. Can you tell me a bit about your current career goals and what type of job you're looking for?"
+    "response": "I appreciate your interest. Would you like to know more about them?"
     },
     {
     "question": "Sure, tell me about about more.",
@@ -27,7 +27,7 @@ conversation = [
     },
     {
     "question": "I'm concerned about the cost. What are the charges?",
-    "response": "Our subscription charge is Rs. 500 per month."
+    "response": "The charge is Rs. 500 per month."
    },
    {
        "question": "Can you provide any references or success stories?",
@@ -91,7 +91,7 @@ conversation = [
     },    
     {
         "question":"How can I get started with your services?",
-        "response": "Once payment confirmation is completed, our services will begin."
+        "response": "As soon as we receive payment confirmation, your services will begin."
     },   
     {
         "question":"What are the charges to start your services?",
@@ -240,7 +240,7 @@ conversation = [
     },
     {
         "question": "How can your company help me with my job search?",
-        "response": "We provide personalized job recommendations based on your profile and preferences. We also offer tips on optimizing your profile to attract employers."
+        "response": "We provide personalized job recommendations based on your profile and preferences can greatly assist job seekers in finding the right opportunities. Additionally, offering tips on optimizing their profiles to attract employers is a practical way to enhance their job search efforts. These services can help individuals stand out in a competitive job market and increase their chances of securing the positions they desire. If you have any specific questions or need further information on how your services work, feel free to ask."
     },
     {
         "question": "Can you explain how your CV analysis service works?",
