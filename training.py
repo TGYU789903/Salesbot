@@ -10,7 +10,7 @@ conversation = [
     "response": "I appreciate your interest. Would you like to know more about them?"
     },
     {
-    "question": "Sure, tell me more.",
+    "question": "Sure, tell me about about more.",
     "response": "I appreciate your interest! We offer a range of job-related services to help you succeed in your career. Can you tell me a bit about your current career goals and what type of job you're looking for?"
     },
     {
@@ -79,11 +79,11 @@ conversation = [
     },
     {
         "question": "I am intersted in new resume",
-        "response": "Great! We'll create a custom resume for you .To begin,please provide your basic such as your name, contact details and work history.We'll reach"  
+        "response": "Great! We'll create a custom resume for you .To begin,please provide your basic such as your name, contact details and work history. We'll reach"  
     },
     {
         "question":"What specific services do you offer to help individuals secure a job?",
-        "response": "Our agent will search and will share you jobs related to your profile every week.For applying on jobs with custom coverletter and content plus resume create .We will create proffesional resume for you with industry standard content"
+        "response": "Our agent will search and will share you jobs related to your profile every week. For applying on jobs with custom cover letter and content plus resume create. We will create professional resume for you with industry standard content."
     },
     {
         "question":"Tell me about the services",
@@ -135,7 +135,7 @@ conversation = [
     },
     {
         "question": "Thank you for reaching out, Jacob. We're always interested in exploring services. Can you provide more details about what your company offers?",
-        "response": "You're welcome ,Our services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
+        "response": "You're welcome, Our services are all about empowering users in their job search. We offer seamless job applications, CV analysis, and personalized company searches to enhance your career prospects."
     },
     {
         "question": "Jacob, while I  appreciate your call, at this time, we're not actively seeking new services.",
