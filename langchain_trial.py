@@ -5,6 +5,8 @@ from langchain.llms import OpenAI
 import os
 import pandas as pd
 
+
+                
 def save_chat_to_excel(query, response):
     file_name = "chat_history.xlsx"
     
@@ -22,8 +24,23 @@ def save_chat_to_excel(query, response):
     
     # Save the updated dataframe
     df.to_excel(file_name, index=False, engine='openpyxl')
+
+def ask_and_get_response(chain, query, max_retries=5):
+    retries = 0
+    while retries < max_retries:
+        try:
+            response = chain({"question": query})
+            return response
+        except RateLimitError:
+            retries += 1
+            if retries < max_retries:
+                print(f"RateLimitError encountered. Retrying in 8.0 seconds. Attempt {retries}/{max_retries}")
+                time.sleep(8.0)  # Wait for 8 seconds before retrying
+            else:
+                print(f"Max retries reached. Exiting after {max_retries} attempts.")
+                raise  # Re-raise the exception after max retries
   
-XYZ = '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'
+
 os.environ["OPENAI_API_KEY"] = XYZ  # Replace with environment variable or other secret management tool
 loader = CSVLoader(file_path='builderdatacsv.csv')
 index_creator = VectorstoreIndexCreator()
@@ -36,7 +53,7 @@ while True:
     if query.lower().strip() == "exit":
         break
 
-    response = chain({"question": query})
+    response = ask_and_get_response(chain, query)
 
     # Save the chat record to Excel
     save_chat_to_excel(query, response['result'])
