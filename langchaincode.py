@@ -18,25 +18,51 @@ docsearch = index_creator.from_loaders([loader])
 
 chain = RetrievalQA.from_chain_type(llm=OpenAI(), chain_type="stuff", retriever=docsearch.vectorstore.as_retriever(), input_key="question")
 
-#query = "what is your name"
-query = "what payment options are available?"
-response = chain({"question": query})
-print(response['result'])
+chat_history = []
+
+while True:
+    # Ask user for a query
+    query = input("Please enter your query (or type 'exit' to end): ")
+
+    # Exit loop if user types 'exit'
+    if query.lower() == 'exit':
+        break
+    
+    # If you want to provide the entire chat history as context
+    context = ". ".join(chat_history)
+    full_query = context + ". " + query if context else query
+
+    response = chain({"question": full_query})
+
+    # Save user's query and model's response to chat_history
+    chat_history.append(query)
+    chat_history.append(response['result'])
+
+    print(response['result'])
+
+# If you wish to save the chat history to a file
+with open('chat_history.txt', 'w') as f:
+    for chat in chat_history:
+        f.write("%s\n" % chat)
+# #query = "what is your name"
+# query = "what payment options are available?"
+# response = chain({"question": query})
+# print(response['result'])
 
 
-#query = "What is the name of your company?"
-query = "How do I submit my cv?"
-response = chain({"question": query})
-print(response['result'])
+# #query = "What is the name of your company?"
+# query = "How do I submit my cv?"
+# response = chain({"question": query})
+# print(response['result'])
 
-#query = "what services do you offer?"
-query = "When can I get started with your services?"
-response = chain({"question": query})
-print(response['result'])
+# #query = "what services do you offer?"
+# query = "When can I get started with your services?"
+# response = chain({"question": query})
+# print(response['result'])
 
-#query = "how does cv analysis work?"
-query = "What makes your service different than others?"
-response = chain({"question": query})
-print(response['result'])
+# #query = "how does cv analysis work?"
+# query = "What makes your service different than others?"
+# response = chain({"question": query})
+# print(response['result'])
 
 
