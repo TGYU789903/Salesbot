@@ -11,6 +11,12 @@ os.environ["OPENAI_API_KEY"] = 'open_AI_api'
 # Load the documents
 loader = CSVLoader(file_path='context7.csv')
 
+client = MongoClient("mongodb+srv://vrchatAdmin:il4FA64i1Mbeo8Ay@cluster0.r5gre5i.mongodb.net")
+db = client['salesbot']
+questions_collection = db['questions']
+botresponses_collection = db['botresponses']
+responses_collection = db['responses']
+
 # Create an index using the loaded documents
 index_creator = VectorstoreIndexCreator()
 docsearch = index_creator.from_loaders([loader])
