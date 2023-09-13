@@ -10,29 +10,23 @@ import time
 
 os.environ["OPENAI_API_KEY"] = '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'
 # Load the documents
-loader = CSVLoader(file_path='builderdatacsv.csv')
+loader = CSVLoader(file_path='context7.csv')
 
 # Create an index using the loaded documents
 index_creator = VectorstoreIndexCreator()
 docsearch = index_creator.from_loaders([loader])
 
 chain = RetrievalQA.from_chain_type(llm=OpenAI(), chain_type="stuff", retriever=docsearch.vectorstore.as_retriever(), input_key="question")
-
-# query = "Tell me about a property in Sushant Lok 1."
-# response = chain({"question": query})
-# print(response['result'])
-
-
 ########
 # Create a connection to the MongoDB server
 client = pymongo.MongoClient("mongodb+srv://vrchatAdmin:il4FA64i1Mbeo8Ay@cluster0.r5gre5i.mongodb.net")
 
 # Select your database
-db = client["realestate"]
+db = client["salesbot"]
 
 # Select the collection where you want to insert the document
 collection = db["questions"]
-responses_collection = db["responses"]
+responses_collection = db["botresponses"]
 ########
 # Initialize the last_processed_id with the latest document's ID when starting the script
 latest_documents_on_start = list(collection.find().sort([('_id', pymongo.DESCENDING)]).limit(1))
