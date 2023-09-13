@@ -29,7 +29,7 @@ print(opening_line)
 # Connect to MongoDB
 client = MongoClient("mongodb+srv://vrchatAdmin:il4FA64i1Mbeo8Ay@cluster0.r5gre5i.mongodb.net")
 db = client['salesbot']
-collection = db['responses']
+collection = db['botresponses']
 
 def play_audio_from_db(response):
     # Search for the response in the MongoDB collection
