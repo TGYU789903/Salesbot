@@ -1,18 +1,16 @@
-import os
-from pymongo import MongoClient
-import soundfile as sf
-import sounddevice as sd
-
 from langchain.document_loaders import CSVLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
+import os
 import joblib
+import pymongo
+import datetime
+import time
 
-os.environ["OPENAI_API_KEY"] = 'open_AI_api'
-
+os.environ["OPENAI_API_KEY"] = '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'
 # Load the documents
-loader = CSVLoader(file_path='context7.csv')
+loader = CSVLoader(file_path='builderdatacsv.csv')
 
 # Create an index using the loaded documents
 index_creator = VectorstoreIndexCreator()
@@ -20,13 +18,87 @@ docsearch = index_creator.from_loaders([loader])
 
 chain = RetrievalQA.from_chain_type(llm=OpenAI(), chain_type="stuff", retriever=docsearch.vectorstore.as_retriever(), input_key="question")
 
-chat_history = []
+# query = "Tell me about a property in Sushant Lok 1."
+# response = chain({"question": query})
+# print(response['result'])
 
-# Start with the bot's opening line
-opening_line = "Hello, I'm Jacob from AryanTech Company. I'm calling you regarding our service to assist you in securing a job. Are you looking for any job opportunities right now?"
-print(opening_line)
 
-# Connect to MongoDB
+########
+# Create a connection to the MongoDB server
+client = pymongo.MongoClient("mongodb+srv://vrchatAdmin:il4FA64i1Mbeo8Ay@cluster0.r5gre5i.mongodb.net")
+
+# Select your database
+db = client["realestate"]
+
+# Select the collection where you want to insert the document
+collection = db["questions"]
+responses_collection = db["responses"]
+########
+# Initialize the last_processed_id with the latest document's ID when starting the script
+latest_documents_on_start = list(collection.find().sort([('_id', pymongo.DESCENDING)]).limit(1))
+last_processed_id = latest_documents_on_start[0]['_id'] if len(latest_documents_on_start) > 0 else None
+
+print("checking for questions...")
+while True:
+    # Get the latest document added to the collection
+    latest_documents = list(collection.find().sort([('_id', pymongo.DESCENDING)]).limit(1))
+    
+    if len(latest_documents) > 0:
+        latest_document = latest_documents[0]
+        
+        # Check if this document's ID is different from the last one we processed
+        if latest_document['_id'] != last_processed_id:
+            query = latest_document["question"]  # Assuming the field is named "message"
+            
+            # Process the query here
+            response_data = chain({"question": query})
+            response_text = response_data['result']
+            print(response_text)
+            
+            # Upload the response to the MongoDB 'responses' collection
+            document = {
+                "question": query,
+                "answer": response_text,
+                "timestamp": datetime.datetime.now()  # Adding a timestamp for record-keeping
+            }
+            responses_collection.insert_one(document)
+            
+            # Update the last_processed_id to the ID of this document
+            last_processed_id = latest_document['_id']
+    
+    # Sleep for 0.3 seconds
+    time.sleep(0.3)
+
+
+# import os
+# from pymongo import MongoClient
+# import soundfile as sf
+# import sounddevice as sd
+
+# from langchain.document_loaders import CSVLoader
+# from langchain.indexes import VectorstoreIndexCreator
+# from langchain.chains import RetrievalQA
+# from langchain.llms import OpenAI
+# import joblib
+
+# os.environ["OPENAI_API_KEY"] = 'open_AI_api'
+
+# # Load the documents
+# loader = CSVLoader(file_path='context7.csv')
+
+# # Create an index using the loaded documents
+# index_creator = VectorstoreIndexCreator()
+# docsearch = index_creator.from_loaders([loader])
+
+# chain = RetrievalQA.from_chain_type(llm=OpenAI(), chain_type="stuff", retriever=docsearch.vectorstore.as_retriever(), input_key="question")
+
+# chat_history = []
+
+# # Start with the bot's opening line
+# opening_line = "Hello, I'm Jacob from AryanTech Company. I'm calling you regarding our service to assist you in securing a job. Are you looking for any job opportunities right now?"
+# print(opening_line)
+
+# # Connect to MongoDB
 client = MongoClient("mongodb+srv://vrchatAdmin:il4FA64i1Mbeo8Ay@cluster0.r5gre5i.mongodb.net")
 db = client['salesbot']
 collection = db['botresponses']
