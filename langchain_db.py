@@ -27,7 +27,7 @@ db = client["salesbot"]
 
 # Select the collections
 questions_collection = db["questions"]
-responses_collection = db["botresponses"]
+responses_collection = db["responses"]
 
 # Initialize the last_processed_id with the latest document's ID when starting the script
 latest_documents_on_start = list(questions_collection.find().sort([('_id', pymongo.DESCENDING)]).limit(1))
