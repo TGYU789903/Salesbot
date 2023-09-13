@@ -8,9 +8,9 @@ from langchain.llms import OpenAI
 import os
 import joblib
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'open_AI_api'
 # Load the documents
-loader = CSVLoader(file_path='context.csv')
+loader = CSVLoader(file_path='context7.csv')
 
 # Create an index using the loaded documents
 index_creator = VectorstoreIndexCreator()
@@ -22,7 +22,6 @@ chat_history = []
 
 # Start with the bot's opening line
 opening_line = "Hello, I'm Jacob from AryanTech Company. I'm calling you regarding our service to assist you in securing a job. Are you looking for any job opportunities right now?"
-chat_history.append(opening_line)
 print(opening_line)
 
 while True:
@@ -34,22 +33,27 @@ while True:
         break
     
     # If you want to provide the entire chat history as context
-    context = ". ".join(chat_history)
+    context = ". ".join([entry[0] + ". " + entry[1] for entry in chat_history])
     full_query = context + ". " + query if context else query
 
     response = chain({"question": full_query})
 
-    # Save user's query and model's response to chat_history
-    chat_history.append(query)
-    chat_history.append(response['result'])
+    # Save user's query and model's response as a tuple in chat_history
+    chat_history.append((query, response['result']))
 
     print(response['result'])
 
-# If you wish to save the chat history to a file
-with open('chat_history.txt', 'w') as f:
-    for chat in chat_history:
-        f.write("%s\n" % chat)
-# ________________________________________________
+def save_chat_to_txt(filename, chat_history):
+    with open(filename, 'w') as file:
+        for entry in chat_history:
+            user_query, bot_response = entry
+            file.write(f"User: {user_query}\nBot: {bot_response}\n\n")
+
+# Save the chat history to a .txt file
+save_chat_to_txt('chat_history.txt', chat_history)
+
+
+________________
 # chat_history = []
 
 # while True:
