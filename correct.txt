@@ -44,9 +44,7 @@ User: is there any guarantee for job placement?
 Bot:  Unfortunately, we cannot guarantee job placement. However, our team is dedicated to helping you optimize your CV and connect you with potential job opportunities that align with your career goals.
 
 User: how do i pay?
-Bot:
-
-Payment for our services can be made through credit card, PayPal, or bank transfer. You can find more information about our payment methods on our website.
+Bot:  Payment for our services can be made through credit card, PayPal, or bank transfer. You can find more information about our payment methods on our website.
 
 User: can you help with interview preparation?
 Bot:  Yes, we do offer interview preparation services. Our team can provide comprehensive advice and tips on how to prepare for an interview, as well as mock interviews to help you practice and refine your skills.
@@ -72,4 +70,149 @@ Bot:  Yes, we can also help you create a cover letter! Our team of experts can p
 User: How long have you been in recruitment industry?
 Bot:  We have been providing CV analysis and job placement services for over 10 years. Our team of experts are highly experienced and have a strong understanding of the current job market and industry trends, which allows us to provide the best possible service for our clients.
 
+___________________________________________________________________________
+
+User: 	i'm looking for a job
+Bot:  	We can help you with that! We provide step-by-step guidance on how to apply for jobs, personalised job recommendations, CV analysis, provide tips on writing cover letters, preparing 	for interviews, and networking on LinkedIn. What field are you looking for a job in?
+
+User: 	i'm looking a job in finance department
+Bot:  	We can definitely help you with finding job opportunities in the finance department! We provide step-by-step guidance on how to apply for jobs, personalised job recommendations, CV 		analysis, provide tips on writing cover letters, preparing for interviews, and networking on LinkedIn.
+
+User: 	what services do you provide?
+Bot:  	We provide step-by-step guidance on how to apply for jobs, personalised job recommendations, CV analysis, provide tips on writing cover letters, preparing for interviews, and networking on LinkedIn. Additionally, we offer a comprehensive CV analysis service where we assess the strengths and weaknesses of your resume and offer personalized 		recommendations. We also have strong connections with numerous employers across various sectors and can help connect you with potential job opportunities based on your 		qualifications and preferences.
+
+User: 	how does cv analysis service work?
+Bot:  	Our CV analysis service involves our team of experts reviewing and providing feedback on your CV's content, format, and relevance to your desired industry. We will assess the 		strengths and weaknesses of your resume and provide personalized recommendations.
+
+User: 	how does your job placement service work?
+Bot:  	Our job placement service is tailored to your skills, experience, and desired job field. We will connect you with relevant job opportunities that align with your career goals. We 	also offer comprehensive CV analysis and personalized recommendations to ensure your CV is optimized for the job you're applying for.
+
+User: 	So, How i provide my CV?
+Bot:  	You can provide your CV to us by uploading it directly to our website, or by emailing it to us. Once we receive your CV, our team of experts will review and provide feedback on your 	CV's content, format, and relevance to your desired industry. We will also assess the strengths and weaknesses of your resume and provide personalized recommendations.
+
+User: 	How I get the feedback of my CV analysis?
+Bot:  	Once our team of experts has reviewed and provided feedback on your CV, we will send you an email with a detailed report outlining our analysis and recommendations. If you have any 		questions about the feedback, you can reach out to us at any time and we will be happy to answer your questions.
+
+User: 	Is my cv data is kept secure with you?
+Bot:  	Yes, absolutely! We take data security very seriously and ensure that all of our clients' data is kept secure and confidential. We use secure cloud storage and encryption to protect 	your data.
+
+User: 	what makes your services different with other company service?
+Bot:  	What makes our services different is our comprehensive approach to CV analysis and job placement. Our team of experts evaluates and analyzes CVs against current industry trends and 	provides personalized recommendations. Additionally, we have strong connections with numerous employers across various sectors and can help connect you with potential job 	opportunities based on your qualifications and preferences. We also provide step-by-step guidance on how to apply for jobs, personalised job recommendations, provide tips on writing 	cover letters, preparing for interviews, and networking on LinkedIn.
+
+User: 	what are the cost of your services?
+Bot:  	The cost of our services depends on the type and number of services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	what are the charges of your services?
+Bot:  	The cost of our services depends on the type and number of services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	what are the prices of your services
+Bot:  	The cost of our services depends on the type and number of services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	what if i take your cv analysis service?
+Bot:  	If you take our CV analysis service, our team of experts will review and provide feedback on your CV's content, format, and relevance to your desired industry. We will also assess 	the strengths and weaknesses of your resume and provide personalized recommendations. The cost of our service depends on the type and number of services requested. We recommend 		contacting us directly for an accurate cost estimate.
+
+User: 	is there any subscription plan for the services?
+Bot:  	We do not currently offer any subscription plans for our services. However, we offer a comprehensive CV analysis service where our team of experts will review and provide feedback 	on your CV's content, format, and relevance to your desired industry. Additionally, we provide job placement services tailored to your skills, experience, and desired job field. The 	cost of our services depends on the type and number of services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	Can you help me with the interview prepration?
+Bot:  	Yes, we can definitely help you with interview preparation! Our team of experts can provide tips and advice on how to prepare for interviews, as well as provide personalized 		recommendations to ensure you make a good impression. We also offer comprehensive CV analysis and personalized recommendations to ensure your CV is optimized for the job you're 		applying for. The cost of our services depends on the type and number of services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	How i get to know about my interview result?
+Bot:  	Once you have completed the interview, we recommend contacting the employer directly to get an update on the status of your application. You can also reach out to us for any 		assistance or advice you may need.
+
+User: 	to which organisations are you linked with?
+Bot:  	We have strong connections with numerous employers across various sectors. Our team is constantly working to expand our connections and help more job seekers find their ideal job.
+
+User: 	Do you offer assistance in internship placement?
+Bot:  	Yes, we do offer assistance in internship placement! Our team of experts can help you find internships that align with your career goals. We provide step-by-step guidance on how to 		apply for internships, personalized job recommendations, CV analysis, provide tips on writing cover letters, preparing for interviews, and networking on LinkedIn. The cost of our 		services depends on the type and number of services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	do you have any gaurantee for the job placement?
+Bot:  	Unfortunately, we cannot guarantee job placement as many factors are out of our control, such as the employer's hiring decisions. However, we have strong connections with numerous 		employers across various sectors and can help connect you with potential job opportunities based on your qualifications and preferences.
+
+User: 	What if I'm not satisfied with your services?
+Bot:  	We understand that our services may not always meet everyone's needs and expectations. If you are not satisfied with our services, please don't hesitate to contact us and we will do 	our best to accommodate you.
+
+User: 	Can you help me in building my resume?
+Bot:  	Yes, we can definitely help you with building your resume! Our team of experts will review and provide feedback on your CV's content, format, and relevance to your desired industry. 	Additionally, we provide personalized recommendations to ensure your CV is optimized for the job you're applying for. The cost of our services depends on the type and number of 		services requested. We recommend contacting us directly for an accurate cost estimate.
+	
+User: 	I'm looking for a job outside the country,can you assist me?
+Bot:  	Yes, we can definitely help you with finding job opportunities outside the country! We have strong connections with numerous employers across various sectors and can help connect 	you with potential job opportunities based on your qualifications and preferences. We provide step-by-step guidance on how to apply for jobs, personalised job recommendations, CV 		analysis, provide tips on writing cover letters, preparing for interviews, and networking on LinkedIn. The cost of our services depends on the type and number of services requested. 	We recommend contacting us directly for an accurate cost estimate.
+
+User: 	can you  provide mock interviews?
+Bot:  	Yes, we can provide mock interviews! Our team of experts can provide personalized feedback and advice on how to prepare for interviews and make a good impression. We also offer 		comprehensive CV analysis and personalized recommendations to ensure your CV is optimized for the job you're applying for. The cost of our services depends on the type and number of 	services requested. We recommend contacting us directly for an accurate cost estimate.
+
+User: 	So, how do i get start?
+Bot:  	To get started, you can reach out to us directly and our team of experts will be happy to answer any questions you may have about our services. We can provide you with an accurate 	cost estimate and discuss how we can best help you optimize your CV and find job opportunities that align with your career goals.
+
+User: 	What are the available payment options you provide?
+Bot:  	We accept payments via credit card, debit card, PayPal, and bank transfer.
+
+User: 	Ok, I'll do the payment
+Bot:  	Great! Once we receive payment, our team of experts will get started on optimizing your CV and helping you find job opportunities that align with your career goals. If you have any 		questions along the way, don't hesitate to reach out to us and we'll be happy to help!
+
+User: 	Thank You
+Bot:  	No problem! We'd be happy to help. If you have any further questions, please don't hesitate to reach out to us and we'll be happy to answer them.
+
+.........................................................................................................................................................................
+
+User: yes
+Bot:  What questions do you have?
+
+User: you have to tell me about your services
+Bot:  Sure, I can tell you more about our services. We provide personalised job search, CV analysis and customising cover letters. We also offer other services to help you achieve your career goals, such as career guidance and interview tips. Do you have any specific questions about our services that I can answer?
+
+User: how does your services work
+Bot:  Certainly! Our services are designed to give you the edge in your job search. We start by analyzing your CV. On top of that, if you opt for our job placement service, we connect you with job openings that align with your skills, experience, and career goals. Do you have any other questions to ask?
+
+User: what about cv analysis
+Bot:  Yes, I can tell you more about our CV analysis service. Our team evaluates and analyzes CVs against current industry trends. This helps ensure that your CV is up-to-date and tailored to the job you're applying for. Once your CV is optimized, we connect you with relevant job opportunities that align with your career goals. Does this answer your question?
+
+User: what about job placement
+Bot:  Yes, I can tell you more about our job placement service. We connect you with job openings that align with your skills, experience, and career goals. We assess the job market and make sure that any job opportunities we present to you are a good fit for you. Do you have any other questions about our services?
+
+User: how you reccommend me a job?
+Bot: 
+
+Yes, I can tell you more about how we recommend jobs. Our job placement service is designed to help you find the best job opportunities for your skills and experience. We assess the job market and make sure that any job openings we present to you are a good fit for you. We also evaluate and analyze your CV against current industry trends to ensure that it is optimized for the job you are applying for. Does this answer your question?
+
+User: I'm looking for a job outside the country,can you assist me?
+Bot: 
+Yes, we can definitely help you with finding a job outside the country. Our job placement service assesses the job market and connects you with job openings that are a good fit for your skills and experience. We also evaluate and analyze your CV against current industry trends to ensure that it is optimized for the job you are applying for. Do you have any other questions about our services?
+
+User: Can you help me in building my resume?
+Bot:  Yes, we can certainly help you with building your resume. Our team evaluates and analyzes CVs against current industry trends. This helps ensure that your CV is up-to-date and tailored to the job you're applying for. Once your CV is optimized, we connect you with relevant job opportunities that align with your career goals. Do you have any other questions about our services?
+
+User: Do you offer assistance in internship placement?
+Bot:  Yes, we do offer assistance in internship placement. Our team evaluates and analyzes CVs against current industry trends. This helps ensure that your CV is up-to-date and tailored to the job you're applying for. Once your CV is optimized, we also connect you with relevant internship opportunities that align with your career goals. Do you have any other questions about our services?
+
+User: What is the cost of the services?
+Bot:  We offer a variety of services, so the cost of our services can vary depending on what you need. If you would like a more specific quote for our services, please contact us and provide us with some details about your needs and career goals so we can provide you with an accurate quote. Do you have any other questions about our services?
+
+User: can i opt only for job placement?
+Bot:  Yes, you can opt only for our job placement service. Our team assesses the job market and connects you with job openings that are a good fit for your skills and experience. We also evaluate and analyze your CV against current industry trends to ensure that it is optimized for the job you are applying for. Do you have any other questions about our services?
+
+User: in what field,you provide me the job?
+Bot:  We focus on connecting you with job openings that align with your skills, experience, and career goals. Our job placement service assesses the job market and connects you with job openings that are a good fit for your skills and experience. Do you have any other questions about our services?
+
+User: what is the difference between your services and other company services?
+Bot:  The main difference between our services and other companies is that we provide personalized job search, CV analysis and customizing cover letters. We also offer other services to help you achieve your career goals, such as career guidance and interview tips. We focus on connecting you with job openings that align with your skills, experience, and career goals. Do you have any other questions about our services?
+
+User: What if, I'm not satisfied with your services?
+Bot:  We understand that it is important to be satisfied with our services. If you are not happy with the results of our services, we offer a money-back guarantee. Please do not hesitate to contact us if you would like more information about our money-back guarantee. Do you have any other questions about our services?
+
+User: How long have you been in recruitment industry?
+Bot:  We have been providing recruitment services for over 10 years. We specialize in CV analysis and job placement and have helped thousands of job seekers find the right job for them. Do you have any other questions about our services?
+
+User: 
+Bot:  Yes, we have been providing recruitment services for over 10 years. We specialize in CV analysis and job placement and have helped thousands of job seekers find the right job for them. Do you have any other questions about our services?
+
+User: i'm looking for a job
+Bot: 
+
+Yes, we can definitely help you with finding a job. Our job placement service assesses the job market and connects you with job openings that are a good fit for your skills and experience. We also evaluate and analyze your CV against current industry trends to ensure that it is optimized for the job you are applying for. Do you have any other questions about our services?
+
+User: i'm looking a job in finance department
+Bot: 
+
+Yes, we can definitely help you with finding a job in the finance department. Our job placement service assesses the job market and connects you with job openings that are a good fit for your skills and experience in the finance field. We also evaluate and analyze your CV against current industry trends to ensure that it is optimized for the job you are applying for. Do you have any other questions about our services?
 
