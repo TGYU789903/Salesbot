@@ -7,10 +7,10 @@ from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 import os
 
-os.environ["OPENAI_API_KEY"] = 'YOUR_API_KEY_HERE'  # Replace with your API key, but remember to keep it secret.
+os.environ["OPENAI_API_KEY"] = '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' # Replace with your API key, but remember to keep it secret.
 
 # Load the documents
-loader = CSVLoader(file_path='context.csv')
+loader = CSVLoader(file_path='context2.csv')
 
 # Create an index using the loaded documents
 index_creator = VectorstoreIndexCreator()
