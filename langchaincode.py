@@ -10,7 +10,7 @@ import joblib
 
 os.environ["OPENAI_API_KEY"] = 'open_AI_api'
 # Load the documents
-loader = CSVLoader(file_path='context7.csv')
+loader = CSVLoader(file_path='context9.csv')
 
 # Create an index using the loaded documents
 index_creator = VectorstoreIndexCreator()
