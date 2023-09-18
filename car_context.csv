@@ -1,81 +1,27 @@
 Context,Query,Response
 Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors regarding our newly launched car. 
 Are you interested in purchasing a new car at the moment?"
-Intrerest Confirmation,"Yes, I was quite intrigued by some of the models. Especially the new hybrid one you've launched.","That's great to hear! The hybrid model has been garnering a lot of interest.
-Would you like to book an appointment to visit our showroom and take a closer look or perhaps even a test drive?"
-Availability,"Yes, Sure. That sounds good. How about this Saturday?","This Saturday is perfect. We have slots available at 10:00 AM, 12:30 PM, and 3:00 PM.
-Please confirm me your email ID. I'll send you all the necessary details on your email ID.
-Which time suits you best?"
-Contact Details,"My name is Jacob and my email ID is jacob585@yahoo.in, I think, 10:00 AM should be fine.","Excellent. I've booked you in for a viewing and test drive at 10:00 AM on  this weekend. Our showroom address is [address]. 
-Is there anything specific you'd like us to prepare or any questions before your visit?"
-Thanks,"No, that's all for now.",Great! We look forward to seeing you. Have a wonderful day!
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors, recently, you visited our website and explored some of our available cars, including our newly launched models. 
-Are you interested in purchasing a new car at the moment?"
-Intrerest Confirmation,"Yes, I saw some models on your website that caught my attention.","That's fantastic to hear! 
-Would you like to schedule an appointment to visit our showroom and take a test drive?"
-Availability,"Sure, that sounds like a good idea. When are you available?","Sure,Sir. Tomorrow we have slots available at 10:00 AM, 12:30 PM, and 3:00 PM.
-Please confirm me your email ID. I'll send you all the necessary details on your email ID.
-Which time suits you best?"
-Confirmation,How about tomorrow at 2 PM?,Tomorrow 2 PM works perfectly. May I have your name and email ID to confirm the appointment?
-Contact Details,"My name is John Smith, and my email ID is abc@gmail.com","Thank you, Mr. Smith. We've scheduled you for a test drive this coming Saturday at 2 PM. 
-Is there a specific model you are interested in, or would you like a tour of several?"
-Specific Model Interest,"I am particularly interested in your newly launched XZ model, but I wouldn't mind taking a look at others as well.","Excellent choice, the XZ model has been receiving rave reviews. We'll make sure it's ready for you to test drive. 
-Would you also like us to prepare some financing options to discuss during your visit?"
-Model Confirmation,"Yes, that would be helpful.","Great! We'll have everything ready for you. You'll receive a confirmation text and an email shortly. 
-Is there anything else you would like to know before we meet?"
-Thanks,"No, I think that covers everything for now. Thank you!","You're welcome, Mr. Smith. We look forward to seeing you on Saturday at 2 PM. Have a great day!"
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors, recently, you visited our website and explored some of our available cars, including our newly launched models. Are you looking to purchase a new car at the moment?"
-Intrerest Confirmation,"Good morning. Yes, I was checking out the latest sedan models. I'm quite interested.",That's great to hear! We have some fantastic sedan options available. Would you like to schedule an appointment to come in and take a closer look?
-Availability,"Yeah, sounds good.When do you have available slots?",We have availability tomorrow afternoon or Sayurday and Sunday morning. Which works best for you?
-Confirmation,Sunday morning would be perfect. How about 10 a.m.?,"10 a.m. on Sunday it is! We'll have the cars ready for you to have a look and other features. May I have your full name and your email ID, so I can note it down in our system?"
-Contact Details,"Certainly, it's Alex and my email ID is alex123@gmail.com","Thank you, Mr. Alex. We look forward to seeing you on Sunday at 10 a.m. Is there any specific model you're particularly interested in, so I can ensure it's prepped and ready for you to have a look and also for test drive?"
-Specific Model Interest,"Yes, I was particularly intrigued by the XS model.","Excellent choice! We'll have the XS model ready for you. If you have any other questions before Sunday, don't hesitate to reach out."
-Thanks,"Will do. Thank you for your assistance, and I'll see you on Sunday.","You're welcome, Mr. Alex. Safe travels, and see you soon!"
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors. Recently, you expressed interest in our newly launched models. Are you considering purchasing a new car at the moment?"
-Intrerest Confirmation,"Good morning! Yes, I was indeed looking into your new models. I haven't made a final decision yet, but I'm interested in getting more information.","That's great to hear! Would you like to schedule an appointment to visit our showroom? You can see the models up close, get detailed information, and even take a test drive."
-Availability,That sounds like a good idea. What times do you have available?,We have some openings this Saturday in the afternoon or next Monday morning. Which would work best for you?
-Confirmation,Saturday afternoon works for me. How about around 3 PM?,"3 PM this Saturday is perfect! I've reserved that slot for you. Please confirm me your name and other details. So, when you arrive I'll ensure you get a detailed tour."
-Contact Details & Thanks,Sounds good. My name is Jacob. Thank you for reaching out. I'll see you on Saturday at 3 PM.,"You're welcome! We look forward to seeing you. Drive safe, and have a great day!"
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors. Recently, our company has launched some new car models. 
-I've heard that you're considering purchasing a new car. Is that correct?"
-Intrerest Confirmation,"Yes, that's right. I've been thinking about getting a new car, and I'm curious about the latest models you have","That's wonderful to hear! Would it be convenient for you to schedule an appointment to visit our showroom? 
-You can take a closer look at the models, get more details, and even take one for a test drive."
-Availability,I think that would be helpful. What are your available slots?,"How does this Saturday sound? We have openings in the morning around 10 AM and in the afternoon at 2 PM. 
-Which would be preferable for you?"
-Confirmation,I think the 10 AM slot on Saturday would be ideal for me.,"Excellent! I've booked you in for 10 AM this Saturday.Please confirm me your name, contact details. So, when you arrive I'll ensure you get a comprehensive overview."
-Contact Details,"That's great, My name is John and my phone number and email ID is 555-1234.",We're excited to show you our latest models. See you on Saturday! Have a great day ahead.
-Thanks, Thanks for reaching out. I'll be there on Saturday at 10 AM.,Great! We look forward to seeing you. Have a wonderful day!
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors. This call is regarding our newly launched car. 
-Are you interested in buying a car at the moment?"
-Intrerest Confirmation,"Good morning. Yes,  I've been thinking about upgrading my vehicle.","Excellent! Would you be interested in scheduling an appointment to visit our showroom? 
-We can offer you a personalized tour, provide detailed information, and even set up a test drive."
-Availability,"I would be, yes. What are your available times?","We have availability this weekend on either Saturday or Sunday afternoon, as well as weekday mornings next week. 
-What would work best for you?"
-Confirmation,How about Sunday afternoon? Does 2 PM work?,"2 PM on Sunday is perfect! I've booked you in for that time. May I have your name and email ID, please, so I can note it down?"
-Contact Details,"Certainly, it's John Smith and my email ID is smith123@gmail.com.","Great, Mr. Smith. You're all set for Sunday at 2 PM. When you arrive, I'll be available there for take care of you."
-Thanks,"Excellent, thanks for setting this up, Alex. I'll see you on Sunday.","You're welcome, Mr. Smith. We're looking forward to helping you find the perfect vehicle. Have a great day!"
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors. 
-Are you considering purchasing a new car or upgrading your current one?"
-Intrerest Confirmation,"Good morning. Actually, I'm especially interested in the latest SUV models.","That's great to hear! We have a range of new SUV models available. 
-Would you like to book an appointment to visit our showroom?"
-Availability,Sounds good. Do you have any availability this weekend?,"Yes, we do. We have openings on both Saturday and Sunday. 
-How about 01:00 PM on Saturday or any other specific time you want?"
-Confirmation,That works for me. Please book it.,"Of course, Sir. May I have your name and email ID for the appointment booking? 
-Would that be acceptable?"
-Contact Details,"Yup, My name is Jacob and my email ID is jacob222@yahoo.in.","Perfect. I've scheduled you for a viewing and test drive at 11:00 AM this Saturday at our main showroom on [address]. 
-Is there anything else you'd like us to prepare for your visit?"
-Appointment Booking,I'd appreciate if you could have the specifications and finance options ready for discussion.,Of course! We'll have all the information ready for you when you arrive. Looking forward to seeing you on Saturday.
-Thanks,Thanks for the assistance. See you then.,Thank You so much! See you soon.
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors. 
-Are you looking for a new car or changing your current one?"
-Intrerest Confirmation,"Yes, I've been thinking about getting a new car actually.","That's wonderful to hear! Would you be interested in setting up an appointment to visit our showroom? 
-We have several new models that you might find appealing, along with some great promotions."
-Availability,That sounds interesting. What days are available for an appointment?,"We have slots open this week from Wednesday to Saturday. 
-Which day works best for you?"
-Availability,How about Friday afternoon?,"Perfect! We have availability at 1:00 PM, 3:00 PM, or 5:00 PM on Friday. 
-Which time would you prefer?"
-Intro,Hello,"Good morning, Sir. I'm calling from JMV Motors. 
-Are you in the market for a new car, or considering changing your current one?"
+Varients,What are the different variants available in XUV 700?,"The XUV700 is offered in 6 variants namely AX3, AX5, AX7,  AX5 AT, AX7 AT, AX7 Diesel AT Luxury Pack AWD. From budget-friendly options to feature-packed variants, the XUV700 offers a model for every kind of SUV enthusiast.
+Which one sparks your interest?"
+Fuel Version,What are the different fuel version available in XUV 700?,"The car is available in both Diesel and Petrol versions. Many choose diesel for its torque and long-term efficiency, while others prefer petrol for its smoothness and initial cost savings. 
+I'd like to hear, What matters most to you so we can find the best fit?"
+Pricing of Car,What are the pricing of the different varients?,"The Mahindra XUV700 starts with the AX3 variant priced at Rs. 15.10 Lakh. On the higher end, we have the XUV700 AX7 Diesel AT Luxury Pack AWD at Rs. 26.50 Lakh. The price difference corresponds to the distinct features of each variant. 
+Would you like guidance on the features most relevant to your needs?"
+Discount,What are the discount availabe on the car?,"Offers and discounts can vary based on the brand, dealership, and your city. We recommend visiting our dealership for the most accurate information. We're committed to providing our customers with the best deals, and an in-person visit ensures you get a full understanding of our current promotions. 
+May I arrange an appointment for you?"
+ Features,What are the basic features of the car?,"The Mahindra XUV700 offers both a Diesel and a Petrol engine option. The Diesel engine capacity is 2198 cc, while the Petrol engine is 1999 cc. It comes with both Manual and Automatic transmission options. The XUV700 is a 7-seater car featuring 4 cylinders, and its dimensions are as follows: length - 4695mm, width - 1890mm, and a wheelbase of 2750mm.Are there any specific features that stand out to you as particularly important for your needs?"
+Payment Options,How do I pay?,"You can pay via cheque, cash, bank transfer, or opt for an EMI loan from our associated banks. 
+Which payment method would you prefer?"
+Service Cost,What is the service cost of the car?,"Absolutely, the first two services for the car are complimentary from our side. Subsequent services typically range between Rs 3,000 and Rs 4,000. We also have service packages available that can offer significant savings over time. And to guarantee transparency, after each service, we'll provide you with a detailed breakdown of the charges.
+Would you like more information about our service packages?"
+Mileage of Car,What is the Mileage of your car?,"The Mahindra XUV700 delivers 15.0 kmpl in city driving and 17.0 kmpl on the highway. However, these figures can vary based on the fuel variant. The XUV700 also comes with various driving modes that allow you to optimize performance and efficiency based on your preference. Apart from fuel efficiency, there are several advanced features in the XUV700 that enhance the driving experience. 
+Would you like to learn more about them?"
+Roadside Assistance,Do you provide roadside  assistance?,"In the event of a breakdown or accident of your Mahindra vehicle, simply call the Mahindra 24×7 Roadside Assistance on Toll Free Number 1800 102 7006. Having called the Mahindra Roadside Assistance, please ensure you or your representative stays with the vehicle at the breakdown location.Apart from breakdowns and accidents, the service also covers scenarios like flat tires, lock-outs, battery jump-starts, and more. 
+Do you want information on the full range of services offered?"
+Warranty,What is the warranty of the car provided by the company?,"The Mahindra XUV 700 comes with a standard warranty of 3 years or 120,000 kms, whichever comes first. However, customers can choose to extend the warranty for an additional 2 years at a cost of Rs 20,000. The warranty covers both mechanical and electrical components, ensuring you're protected against any manufacturer defects.
+Would you like to add the extended warranty to your purchase?"
+Colours,What are the different colors and shades available in car?,"Mahindra XUV700 is available in 5 different colours - Everest White, Dazzling Silver, Electric Blue, Red Rage and Midnight black. Each color has been chosen to complement the design and aesthetics of the XUV700, you can visit our showroom to see them in person and decide which one suits your style best. 
+Do you have a preference among these options?"
 Safety Features,What safety features does your company provide in the car?,"The XUV700 is relentlessly dedicated to your safety. Not only does it feature an intelligent system that auto-applies brakes if you don't respond in time, but it's also equipped with 7 airbags, Automatic Emergency Braking, Front Collision Warning, and Driver Drowsiness Detection. Furthermore, the ADAS (Advanced Driver Assistance Systems) includes both the Smart Pilot Assist and Lane Keep Assist. Add to this the Electronic Stability Program, and you have an SUV that's truly safety-forward. It's no surprise that the XUV700 achieved a commendable score of 16.03 out of 17 in adult occupant safety, earning a five-star rating. 
 How do you feel about these features?"
 Customer Review and Feedback,What are the customer reviews and feedback about the car?,"The XUV700 handles like a dream, offering a smooth and comfortable ride even on rough terrains. And let's not forget about the mileage! This SUV is surprisingly fuel-efficient, making it a practical choice for those who value both power and efficiency. The XUV 700 is a powerful and comfortable SUV with a well-designed interior and a host of modern features. Its responsive engine, smooth transmission, and excellent ride quality make it a joy to drive. It's clear that the XUV700 is a well-rounded package. 
@@ -84,8 +30,12 @@ Car Specialisation,What is special about XUV700?,"An intelligent SUV with intell
 Are there specific features or technologies that are especially important to you in your choice of a vehicle?"
 Key Features,What are the key features of car?,"Key features of the XUV700 are a Start-Stop push button, Digital Speedometer, MicroHybrid Technology, Personalized safety alerts, Curtain Airbags for all rows, Advanced Driver Assistance System(ADAS), Smart clean zone, Driver Drowsiness Detection, Continuous Digital video recording, Electronic park brake, 10.25-inch touchscreen infotainment system, a 10.25-inch digital instrument cluster, a six-way powered driver seat and up to 12 speakers. It also gets a panoramic sunroof, dual-zone climate control and built-in Alexa connectivity. It's an experience tailored for the discerning driver. 
 What are your thoughts on these features?"
-Insurance,What is the insurance cost of your car?,"Basically, the minimum insurance cost of our car is Rs 42000 for per year. The premium of a car insurance plan depends on the coverage of the plan and other factors such as car's make, model, variant, fuel type, RTO location, etc. The premium for third party car insurance plans is fixed by the IRDAI and it depends only on the car's engine capacity. 
-Do you have any other insurance plan for your previously owned car?"
-Insurance Premium,How you will calculate the premium of insurance of the car?,"There are many ways to calculate the insurance premium for a car. The most common way is to use the following formula: Premium = (Present Value of Future Benefits) / (1+Risk-Free Rate) Time. The premium of a car insurance plan depends on the coverage of the plan and other factors such as car's make, model, variant, fuel type, RTO location, etc. The premium for third party car insurance plans is fixed by the IRDAI and it depends only on the car's engine capacity. 
-Do you have specific coverage requirements or preferences for your insurance plan? It will help us tailor the best insurance solution for you."
+Insurance,What is the insurance cost of your car?,"Basically, IDV is the current market value of the vehicle. If the vehicle suffers total loss, IDV is the compensation that the insurer will provide to the policyholder. IDV is calculated as the manufacturer's listed selling price minus depreciation."
+Insurance Premium,How you will calculate the premium of insurance of the car?,"There are many ways to calculate the insurance premium for a car. The most common way is to use the following formula: Premium = (Present Value of Future Benefits) / (1+Risk-Free Rate) Time. The premium of a car insurance plan depends on the coverage of the plan and other factors such as car's make, model, variant, fuel type, RTO location, etc. The premium for third party car insurance plans is fixed by the IRDAI and it depends only on the car's engine capacity. Do you have specific coverage requirements or preferences for your insurance plan? It will help us tailor the best insurance solution for you."
 Interest,I'm interested in buying the car,"I'm sure you'll love the XUV700. Let's discuss the available finance options and any specific customizations you'd like. Additionally, if you haven't yet, we highly recommend taking it for a test drive to truly appreciate its features."
+Intrerest Confirmation,"Good morning. Yes,  I've been thinking about upgrading my vehicle.","Excellent! Would you be interested in scheduling an appointment to visit our showroom? 
+We can offer you a personalized tour, provide detailed information, and even set up a test drive."
+Availability,"I would be, yes. What are your available times?","We have availability this weekend on either Saturday or Sunday afternoon, as well as weekday mornings next week. 
+What would work best for you?"
+Confirmation,How about Sunday afternoon? Does 2 PM work?,"2 PM on Sunday is perfect! I've booked you in for that time. May I have your name and email ID, please, so I can note it down?"
+Contact Details,"Certainly, it's John Smith and my email ID is smith123@gmail.com.","Great, Mr. Smith. You're all set for Sunday at 2 PM. When you arrive, I'll be available there for take care of you."
