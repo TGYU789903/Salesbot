@@ -27,7 +27,7 @@ MONGO_DB_URI = os.environ.get('MONGO_DB_URI')
 MONGO_DB_NAME = os.environ.get('MONGO_DB_NAME')
 MONGO_DB_COLLECTION = os.environ.get('MONGO_DB_COLLECTION')
 
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = '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'
 
 mongo = MongoDB(MONGO_DB_URI, MONGO_DB_NAME)  # Initialize the MongoDB instance
 
@@ -49,7 +49,7 @@ def chat_with_user():
 
     chat_history = []
 
-    opening_line = "Hello, I'm Jacob from AryanTech Company. I'm calling you regarding our service to assist you in securing a job. Are you looking for any job opportunities right now?"
+    opening_line = "Hello, I'm calling from JMV Motors regarding our newly launched car. Are you interested in purchasing a new car at the moment?"
     print(opening_line)
 
     while True:

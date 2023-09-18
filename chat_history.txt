@@ -1,0 +1,6 @@
+User: yes, iam interested
+Bot: I'd be happy to help. Do you have a specific brand or model in mind, or are you open to suggestions?
+
+User: im open to suggestions
+Bot: We offer a range of models, each tailored to different needs – from compact cars to SUVs. Let me know your preferences, and I can suggest the best fit.
+
