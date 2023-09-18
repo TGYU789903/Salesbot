@@ -9,13 +9,13 @@ from langchain.llms import OpenAI
 import datetime
 
 # Add components to your system path and import the functions
-# sys.path.append('./components')
+sys.path.append('./components')
 # sys.path.append('./utils')
 
 from mongo_db import MongoDB
 from speech_to_text import transcribe_stream
 from faiss_response_mapping import get_similar_response
-# from play_audio import play_audio_from_id, play_random_filler
+from play_audio import play_audio_from_id, play_random_filler
 
 # Load environment variables from .env file
 load_dotenv()
