@@ -27,7 +27,7 @@ MONGO_DB_URI = os.environ.get('MONGO_DB_URI')
 MONGO_DB_NAME = os.environ.get('MONGO_DB_NAME')
 MONGO_DB_COLLECTION = os.environ.get('MONGO_DB_COLLECTION')
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 
 mongo = MongoDB(MONGO_DB_URI, MONGO_DB_NAME)  # Initialize the MongoDB instance
 
