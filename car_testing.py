@@ -85,3 +85,13 @@ def chat_with_user():
         print(matched_response)
 
     return chat_history
+def save_chat_to_txt(filename, chat_history):
+    with open(filename, 'w') as file:
+        for entry in chat_history:
+            user_query, bot_response = entry
+            file.write(f"User: {user_query}\nBot: {bot_response}\n\n")
+
+if __name__ == "__main__":
+    chat_history = chat_with_user()
+    save_chat_to_txt('chat_history.txt', chat_history)
+    mongo.close_connection()  # Close the MongoDB connection
