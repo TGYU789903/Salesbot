@@ -13,9 +13,9 @@ sys.path.append('./components')
 # sys.path.append('./utils')
 
 from mongo_db import MongoDB
-from speech_to_text import transcribe_stream
+#from speech_to_text import transcribe_stream
 from faiss_response_mapping import get_similar_response
-from play_audio import play_audio_from_id, play_random_filler
+#from play_audio import play_audio_from_id, play_random_filler
 
 # Load environment variables from .env file
 load_dotenv()
@@ -57,7 +57,7 @@ def chat_with_user():
         query = input("You: ")
 
         # Play a filler sound after receiving input
-        play_random_filler()
+        #play_random_filler()
 
         # Exit condition
         if query.lower() == 'exit':
@@ -74,7 +74,7 @@ def chat_with_user():
         matched_object_id, matched_response = get_similar_response(response['result'])
         print(matched_response)
 
-        play_audio_from_id(matched_object_id)
+        #play_audio_from_id(matched_object_id)
 
         chat_history.append((query, matched_response))
 
