@@ -1,0 +1,14 @@
+Context,Query,Response
+Intro,Hello,Hello I am Ishan from Aryantech motors. We noticed you were looking for some cars on our website. Are you interested in purchasing a new car at this moment?
+Interest,"yes, I am interested in new car",Do you have any specific features in mind or are you open to suggestions?
+Fuel -efficient,I am looking for something fuel-efficient with advanced safety features.,"If you're looking for fuel efficiency, we have a few in stock. In addition to that, given your interest in safety, we have various options for that as well. Would you like to try them out?"
+safety features,Could you tell me more about its safety features?,"Our cars are equipped with multiple airbags, anti-lock braking systems (ABS), electronic brake distribution (EBD), hill-start assist, and a rearview camera as standard. Advanced models also feature adaptive cruise control, lane departure warning, and automatic emergency braking. Safety is our top priority. What about I book a test drive for you to get a better idea?"
+Demo,"Sure, book a test drive for me.",Great choice! We'd be happy to arrange a test drive for you. We have slots available on both Saturday and Sunday. Which day would be most convenient for you?
+Time and Name Confirmation,How about this Saturday evening?,Saturday evening works perfectly. I'll schedule your appointment. Can you please confirm your name and contact number?
+Time and Name Confirmation,Saturday evening will be fine,Saturday evening works perfectly. I'll schedule your appointment. Can you please confirm your name and contact number?
+Time and Name Confirmation,Saturday evening will be good,Saturday evening works perfectly. I'll schedule your appointment. Can you please confirm your name and contact number?
+Noting Details,My name is Priya Sharma. Contact no. is 7123456123,"Thank you, I have noted your details and booked a test drive for you on Saturday evening. Do you have any questions?"
+End of the conversation,"No, thank you",You're welcome. We look forward to meeting you. Have a great day!
+Time and Name Confirmation,Saturday evening will be good,Absolutely! We have a Saturday evening slot available. What time would you like to book it for?
+Ask for Name,Five PM,Sure! Can you please confirm your name and contact number?
+Time and Name Confirmation,Saturday evening will be good,Great! We'll get you booked in for a test drive on Saturday then. Can you please confirm your name and contact number?
